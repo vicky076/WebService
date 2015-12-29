@@ -1,0 +1,1242 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+BKFactoryService
+</name>
+</assembly>
+<members>
+<member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_FactoryType">
+	<summary>
+ Billing後台-付費廠商類別維護
+ 查詢
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryType_Insert(System.String,System.String)">
+	<summary>
+ Billing後台-付費廠商類別維護
+ 新增付費廠商類別
+ </summary>
+	<param name="FactoryTypeDesc"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryType_Update(System.Int32,System.String,System.String)">
+	<summary>
+ Billing後台-付費廠商類別維護
+ 修改付費廠商類別
+ </summary>
+	<param name="FactoryTypeDesc"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_BlackIPList(System.String,System.String,System.String)">
+	<summary>
+ Billing後台-IP黑名單管理
+ 查詢
+ </summary>
+	<param name="IP"></param>
+	<param name="Status"></param>
+	<param name="CheckIP"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_BlackIPList_Insert(System.String,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-IP黑名單管理
+ 新增
+ </summary>
+	<param name="StartIP"></param>
+	<param name="EndIP"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_BlackIPList_Update(System.Int32,System.String,System.Int32,System.String)">
+	<summary>
+ Billing後台-IP黑名單管理
+ 修改
+ </summary>
+	<param name="Sn"></param>
+	<param name="ProcDesc"></param>
+	<param name="Status"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_BlackIPListForEX(System.Boolean,System.String,System.String)">
+	<summary>
+ Billing後台-IP黑名單管理
+ 依據修改按鈕狀態查詢
+ </summary>
+	<param name="AutoGenerateEdit">是否有修改按鈕</param>
+	<param name="StartIP"></param>
+	<param name="EndIP"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_WhiteCustIdList(System.Boolean,System.Boolean,System.String,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-用戶號碼白名單管理
+ 查詢
+ </summary>
+	<param name="rdpStartDate">開始日期是否有值</param>
+	<param name="rdpEndDate">結束日期是否有值</param>
+	<param name="rdpStartDate_value">開始日期</param>
+	<param name="rdpEndDate_value">結束日期</param>
+	<param name="CustId">用戶號碼</param>
+	<param name="Status">狀態</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_WhiteCustIdList_Insert(System.String,System.String,System.String,System.String,System.DateTime,System.DateTime,System.String)">
+	<summary>
+ Billing後台-用戶號碼白名單管理
+ 新增
+ </summary>
+	<param name="CustId"></param>
+	<param name="ProcDesc"></param>
+	<param name="DayAllowPrice"></param>
+	<param name="MonthAllowPirce"></param>
+	<param name="StartTime"></param>
+	<param name="EndTime"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_WhiteCustIdList_Update(System.Int32,System.String,System.String,System.String,System.DateTime,System.DateTime,System.String,System.String)">
+	<summary>
+ Billing後台-用戶號碼白名單管理
+ 修改
+ </summary>
+	<param name="Sn"></param>
+	<param name="ProcDesc"></param>
+	<param name="DayAllowPrice"></param>
+	<param name="MonthAllowPirce"></param>
+	<param name="StartTime"></param>
+	<param name="EndTime"></param>
+	<param name="Status"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_WhiteCustIdListForEX(System.Boolean,System.String)">
+	<summary>
+ Billing後台-用戶號碼白名單管理
+ 依據修改按鈕狀態查詢
+ </summary>
+	<param name="AutoGenerateEdit">是否有修改按鈕</param>
+	<param name="CustId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactorySP_View(System.String)">
+	<summary>
+ 20140123 qq 把判斷抓取特定廠商移除，可以查全部廠商
+ Billing後台-廠商結帳配合條件設定
+ 依權限GameServiceId取得特定廠商
+ </summary>
+	<param name="GameServiceId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_View(System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得遊戲廠商資料
+ </summary>
+	<param name="GameFactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameService_View(System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得遊戲服務
+ </summary>
+	<param name="GameFactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_FacService_View(System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得金流服務
+ </summary>
+	<param name="GameServiceId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_ProductService_View(System.String,System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得產品服務
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.ProductService_Update(System.Int32,System.Double,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 修改
+ </summary>
+	<param name="Sn"></param>
+	<param name="SharedRate"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_StorePoints_GameServiceType">
+	<summary>
+ Billing後台-線上購卡遊戲服務分類管理 
+ 查詢
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceType_Insert(System.String,System.Int32,System.Int32,System.String)">
+	<summary>
+ Billing後台-線上購卡遊戲服務分類管理
+ 新增
+ </summary>
+	<param name="GameServiceTypeDesc"></param>
+	<param name="Status"></param>
+	<param name="Priority"></param>
+	<param name="CreateUser"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceType_Update(System.Int32,System.String,System.Int32,System.Int32,System.String)">
+	<summary>
+ Billing後台-線上購卡遊戲服務分類管理
+ 修改
+ </summary>
+	<param name="Sn"></param>
+	<param name="GameServiceTypeDesc"></param>
+	<param name="Status"></param>
+	<param name="Priority"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_Billing_FactoryService(System.String,System.Int32)">
+	<summary>
+ Billing後台-Billing銷售報表
+ 查詢
+ </summary>
+	<param name="FactoryId"></param>
+	<param name="DeptSn">單位別</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_SPS_StorePoints_BillingOnlineSellReport(System.String,System.String,System.String,System.String,System.Int32,System.Int32)">
+	<summary>
+ Billing後台-Billing銷售報表
+ 查詢報表
+ </summary>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="FactoryId"></param>
+	<param name="FactoryServiceId"></param>
+	<param name="ReportPriority"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_ForDDL">
+	<summary>
+ Billing後台-CP對應付費方式批次新增
+ 取得遊戲廠商
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_ForDDL_Dept(System.Int32)">
+	<summary>
+ Billing後台-CP對應付費方式批次新增
+ 取得遊戲廠商(區分單位別)
+ </summary>
+	<param name="DeptSn">單位別</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameService_ForDDL(System.String)">
+	<summary>
+ Billing後台-CP對應付費方式批次新增
+ 取得遊戲服務
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_Factory_View(System.Int32)">
+	<summary>
+ Billing後台-CP對應付費方式批次新增
+ 取得付費方式
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_Bound_View(System.String,System.Int32)">
+	<summary>
+ Billing後台-CP對應付費方式批次新增
+ 取得額度
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.CPAndFactoryLimit_Insert(System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ Billing後台-CP對應付費方式批次新增
+ 新增
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_ForDDL14">
+	<summary>
+ Billing後台-billing流程總失敗比率查詢
+ 取得遊戲廠商
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameService_ForDDL14(System.String)">
+	<summary>
+ Billing後台-billing流程總失敗比率查詢
+ 取得遊戲服務
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.BillingTradeFailQuery(System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Billing後台-billing流程總失敗比率查詢
+ 取得遊戲服務
+ </summary>
+	<returns>DataSet,ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳DataSet,ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_View_all">
+	<summary>
+ Billing後台-雙向簡訊報表
+ 遊戲廠商
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_ValueByText(System.String)">
+	<summary>
+ Billing後台-雙向簡訊報表
+ 找遊戲廠商Value
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameService_View_ByGameFactoryId(System.String)">
+	<summary>
+ Billing後台-雙向簡訊報表
+ 找遊戲服務
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_StorePoints_Factory_View">
+	<summary>
+ Billing後台-雙向簡訊報表
+ 付費方式
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.TwoWayMsg_SecondMsgRecord_ForReport(System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Billing後台-雙向簡訊報表
+ 
+ </summary>
+	<returns>DataSet,ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳DataSet,ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_View_AJAX(System.String)">
+	<summary>
+ Billing後台-雙向簡訊報表
+ 取得遊戲廠商AJAX
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_StoreProductServiceSharedRate_Query(System.Int32,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 查詢拆帳比
+ </summary>
+	<param name="QueryType">1:NOW 2:Futrue 3:history</param>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<returns>DataSet,ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳DataSet,ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_StoreProductServiceSharedRate_Insert(System.Int32,System.Int32,System.Int32,System.Double,System.DateTime,System.DateTime,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 新增產品服務攤分比
+ </summary>
+	<param name="UpdateType">1:NOW 2:Futrue</param>
+	<param name="Sn"></param>
+	<param name="StoreProductServiceSn">產品服務SN</param>
+	<param name="SharedRate">攤分比</param>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_StoreProductServiceSharedRate_Update(System.Int32,System.Int32,System.Int32,System.Double,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 修改產品服務攤分比
+ </summary>
+	<param name="UpdateType">1:NOW 2:Futrue</param>
+	<param name="Sn"></param>
+	<param name="StoreProductServiceSn">產品服務SN</param>
+	<param name="SharedRate">攤分比</param>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_StoreProductServiceSharedRate_Update_New(System.Int32,System.Int32,System.Double,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 修改產品服務攤分比 20120801更新
+ </summary>
+	<param name="Sn"></param>
+	<param name="StoreProductServiceSn">產品服務SN</param>
+	<param name="SharedRate">攤分比</param>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameFactory_View_Outer(System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得遊戲廠商資料(未續約)
+ </summary>
+	<param name="GameFactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_GameService_View_Outer(System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得遊戲服務(未續約)
+ </summary>
+	<param name="GameFactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_FacService_View_Outer(System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得金流服務(未續約)
+ </summary>
+	<param name="GameServiceId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_ProductService_View_Outer(System.String,System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 取得產品服務(未續約)
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_BK_StorePoints_FactoryForTimePeriod(System.String)">
+	<summary>
+ PayPal主動查詢交易狀態
+ 取得查詢時間範圍(小時)
+ </summary>
+	<param name="FactoryId">金流代號</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_BK_StorePoints_Factory_Paypal(System.String)">
+	<summary>
+ PayPal主動查詢交易狀態
+ 取得PayPal付費失敗的交易
+ </summary>
+	<param name="CheckDate">日期時間</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Mycard_Backup_Remind_VB_Mail_View(System.Int32)">
+	<summary>
+ 查詢寄送郵件的Email
+ </summary>
+	<param name="GroupSn">群組代碼</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_View_BK_StorePoints_Factory">
+	<summary>
+ Billing後台-依付費方式批次修改產品服務
+ 付費廠商
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_View_BK_StorePoints_FactoryService(System.String)">
+	<summary>
+ Billing後台-依付費方式批次修改產品服務
+ 付費廠商品項名稱
+ </summary>
+	<param name="FactoryId">付費廠商</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_View_BK_StorePoints_StoreProductServiceForBK(System.String,System.Int32,System.Int32)">
+	<summary>
+ Billing後台-依付費方式批次修改產品服務
+ 查詢遊戲服務
+ </summary>
+	<param name="FactoryServiceId"></param>
+	<param name="FactoryServicePrice"></param>
+	<param name="Status"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_StoreProductService_UpdateStatus(System.Int32,System.Int32,System.String)">
+	<summary>
+ Billing後台-依付費方式批次修改產品服務
+ 修改產品服務狀態
+ </summary>
+	<param name="Sn"></param>
+	<param name="Status">狀態</param>
+	<param name="UserStamp">修改人</param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_StoreProductService_CPPayment(System.String,System.String,System.String)">
+	<summary>
+ Billing後台-CP廠商付費方式查詢
+ 查詢
+ </summary>
+	<param name="FactoryId">付費廠商代號</param>
+	<param name="ONLINEsaveTYPE">一般Billing、線上購卡儲值</param>
+	<param name="Status">上下架</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetOGB_TB_CARD_GROUPByPrice(System.Decimal)">
+	<summary>
+ Billing後台-CP廠商群組上架查詢
+ 依金額查詢卡群組
+ </summary>
+	<param name="CARD_PRICE">金額</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_OGB_TB_CardGroup_WebIngameStatus(System.String,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-CP廠商群組上架查詢
+ 查詢
+ </summary>
+	<param name="CARD_GROUP">卡群組</param>
+	<param name="Status">web儲值上下架</param>
+	<param name="ImGameStatus">ingame上下架</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_OGB_TB_CardGroup_WebIngameStatusForWinForm(System.String)">
+	<summary>
+ WinForm-Mail每月發出CP廠商配合實體點數一覽表
+ 查詢
+ </summary>
+	<param name="CARD_GROUP_Type">卡群組: M點，N超商，O國外，P大馬，C點交易</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_StoreProductServiceForRateForCP(System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 查詢CP所屬的付費廠商
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_StoreProductServiceForRate(System.String,System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 查詢所有付費廠商對應遊戲
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_GameServiceContractDate(System.String,System.String,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 查詢合約日期
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceContractRate_Query(System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 查詢折數
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<param name="GSContractSn">合約日期Sn</param>
+	<returns>DataSet,ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳DataSet,ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceContractDate_Insert(System.String,System.String,System.String,System.DateTime,System.DateTime,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 新增合約日期
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="CreateUser"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceContractDate_Update(System.String,System.String,System.String,System.Int32,System.DateTime,System.DateTime,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 修改合約日期
+ </summary>
+	<param name="GameFactoryId"></param>
+	<param name="GameServiceId"></param>
+	<param name="FactoryId"></param>
+	<param name="Sn"></param>
+	<param name="StartDate"></param>
+	<param name="EndDate"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceContractRate_Update(System.Int32,System.String,System.Double,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 修改合約折數
+ </summary>
+	<param name="GSContractDateSn"></param>
+	<param name="StoreProductServiceId"></param>
+	<param name="ShareRate"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceContractRate_Insert(System.Int32,System.String,System.String,System.String,System.String,System.Double,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 新增合約折數
+ </summary>
+	<param name="GSContractDateSn"></param>
+	<param name="StoreProductServiceId"></param>
+	<param name="GameServiceId"></param>
+	<param name="GameProductId"></param>
+	<param name="FactoryServiceId"></param>
+	<param name="ShareRate"></param>
+	<param name="CreateUser"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceContractDate_Insert_BeginTrans(System.String,System.String,System.String,System.DateTime,System.DateTime,System.Double,System.String)">
+	<summary>
+ Billing後台-廠商結帳配合條件設定
+ 新增日期及合約折數
+ </summary>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_BK_StorePoints_GameServiceLoginData(System.String)">
+	<summary>
+ CP廠商遊戲服務管理
+ </summary>
+	<param name="GameServiceID"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceLoginData_Insert(System.String,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-CP廠商遊戲服務管理
+ 新增IP
+ </summary>
+	<param name="GameServiceId"></param>
+	<param name="IPTypeDesc"></param>
+	<param name="StoreIP"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_GameServiceLoginData_Update(System.String,System.String,System.String,System.String)">
+	<summary>
+ Billing後台-CP廠商遊戲服務管理
+ 修改IP
+ </summary>
+	<param name="Sn"></param>
+	<param name="IPTypeDesc"></param>
+	<param name="StoreIP"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_View_BK_StorePoints_FactoryInDept_Inner(System.String)">
+	<summary>
+ Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ 查詢已設定付費廠商
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryInDept_Outter(System.Int32)">
+	<summary>
+ Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ 查詢未設定部門的金流
+ </summary>
+	<param name="DeptSN"></param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryInDept_Insert(System.Int32,System.String,System.String)">
+	<summary>
+ Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ 新增金流廠商對應部門
+ </summary>
+	<param name="DeptSN"></param>
+	<param name="FactoryID"></param>
+	<param name="CreateUser"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryInDept_Delete(System.Int32,System.String,System.String)">
+	<summary>
+ Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ 刪除金流廠商對應部門
+ </summary>
+	<param name="DeptSN"></param>
+	<param name="FactoryID"></param>
+	<param name="CreateUser"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_BKPortalDept">
+	<summary>
+ Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ 取得後台單位別
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.VIEW_BKPortal_SWUsers(System.String)">
+	<summary>
+ 付費廠商對應單位別功能需求
+ 取得帳號所屬單位別
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_EC_GAME_TypeForCompany">
+	<summary>
+ 差異報表處理功能
+ 差異報表補跑與取消功能
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_EC_GAME_TypeForGame(System.String)">
+	<summary>
+ 差異報表處理功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetGameFacIdAndGAME_ID(System.String)">
+	<summary>
+ 差異報表處理功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetVIEW_MyCP_ReasonType">
+	<summary>
+ 差異報表處理功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.DiffReportProcessGetData(System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 差異報表處理功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.DiffReportSetGet_EC_GAME_TypeForGame(System.String)">
+	<summary>
+ 差異報表補跑與取消功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.DiffReportSetGetData(System.Int32,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 差異報表補跑與取消功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.MyCP_QueueProcess_ProcessData(System.Int32,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+ 差異報表補跑與取消功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.MyCP_QueueProcess_Cancel(System.Int32,System.String)">
+	<summary>
+ 差異報表補跑與取消功能
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_BK_StorePoints_FactoryService_View(System.String,System.String,System.Int32,System.Int32,System.Int32)">
+	<summary>
+ 付費廠商品項管理
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_BK_StorePoints_Factory_View(System.Int32)">
+	<summary>
+ 付費廠商品項管理
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_SPS_StorePoints_FactoryService_Insert(System.String,System.String,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Double,System.String,System.Int32)">
+	<summary>
+ 付費廠商品項管理
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_SPS_StorePoints_FactoryService_Update(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Double,System.String,System.Int32)">
+	<summary>
+ 付費廠商品項管理
+ 
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryService_Check(System.String)">
+	<summary>
+ 付費廠商品項管理
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_BK_StorePoints_GameFactory(System.Int32)">
+	<summary>
+ Billing後台/CP對應付費方式批次修改
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_BK_StorePoints_GameService(System.String)">
+	<summary>
+ Billing後台/CP對應付費方式批次修改
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_StorePoints_CPAndFactoryLimit(System.String,System.Int32)">
+	<summary>
+ Billing後台/CP對應付費方式批次修改
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_StorePoints_CPAndFactoryLimitSN(System.String,System.String,System.Int32)">
+	<summary>
+ Billing後台/CP對應付費方式批次修改
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.MyCard_ADSell_ProgramSchedule_Insert(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ Billing後台/CP對應付費方式批次修改
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetFactoryForCPAndFactoryLimit(System.Int32)">
+	<summary>
+ Billing後台/付費方式對應CP批次修改
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetFactoryByFactoryIdForCPAndFactoryLimit(System.String,System.Int32)">
+	<summary>
+ Billing後台/付費方式對應CP批次修改
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.FactorInfoQuery(System.String,System.String,System.Int32)">
+	<summary>
+ Billing後台/付費方式對應CP批次修改
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_CPAndFactoryLimit_Update(System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String,System.String,System.String,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ Billing後台/付費方式對應CP批次修改
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.MyCP_SaveDifferenceData_Update(System.Int32,System.Int32,System.Int32,System.String)">
+	<summary>
+ MyCard帳務後台/差異報表處理功能修改
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.VIEW_StorePoints_HomeReceivable_RollBackPoint(System.DateTime,System.Int32)">
+	<summary>
+ MyCard Billing後台/HappyGo/處理多筆兌點退貨結果檔
+ 資料查詢(4:產生匯入檔)
+ </summary>
+	<param name="CancelDate"></param>
+	<param name="CancelStatus">4:產生匯入檔</param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_HappyGoPo_TradeListCancel_Query(System.DateTime,System.Int32)">
+	<summary>
+ 2013/10/29 qq 新的SP
+ MyCard Billing後台/HappyGo/處理多筆兌點退貨結果檔
+ 資料查詢(4:產生匯入檔)
+ </summary>
+	<param name="CancelDate"></param>
+	<param name="CancelStatus">4:產生匯入檔</param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_HappyGoPointData_TradeList_CancelStatus_A01(System.Int32,System.Int32,System.String)">
+	<summary>
+ MyCard Billing後台/HappyGo/處理多筆兌點退貨結果檔
+ 累積退點_取消狀態修改  3：取消確認
+ </summary>
+	<param name="SN"></param>
+	<param name="CancelStatus">取消標記：1：一般取消 2：批次取消 3：取消確認</param>
+	<param name="CancelUser"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_MessageServices_Group">
+	<summary>
+ MyCard Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.VIEW_MessageService_GROUPvsFACTORY(System.String)">
+	<summary>
+ MyCard Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.VIEW_MessageService_GROUPvsFACTORYSearch(System.String,System.String)">
+	<summary>
+ MyCard Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.MessageService_GROUPvsFACTORY_Setting(System.Int32,System.Int32,System.String,System.Int32,System.String)">
+	<summary>
+ MyCard Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ </summary>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.View_BK_StorePoints_Factory">
+	<summary>
+ MyCard Billing後台/Billing後台維護作業/付費廠商對應單位別功能
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetVIEW_BKportal_Dept_ForReprot(System.String,System.String)">
+	<summary>
+ MyCard Billing後台/CP對應付費方式批次新增
+ 查詢報表寄送群組
+ </summary>
+	<param name="ReportId">報表ID</param>
+	<param name="DeptSn">單位別</param>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetPayWayList(System.String,System.Int32@,System.String@)">
+	<summary>
+ 查詢付費方式列表
+ </summary>
+	<param name="GameServiceId">遊戲服務名稱</param>
+	<param name="ReturnMsgNo"></param>
+	<param name="ReturnMsg"></param>
+	<returns>DataTable</returns>
+	<remarks></remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Upd_RemindStautsByGameID_View(System.String,System.Byte,System.String,System.Int32@,System.String@)">
+	<summary>
+ 更新廠商結束合約狀態
+ </summary>
+	<param name="CPGameId"></param>
+	<param name="RemindStatus"></param>
+	<param name="CreateUser"></param>
+	<param name="ReturnMsgNo"></param>
+	<param name="ReturnMsg"></param>
+	<remarks></remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Upd_RemindStautsByGameID_Virtual_View(System.String,System.String,System.String,System.Byte,System.String,System.Int32@,System.String@)">
+	<summary>
+ 更新廠商結束合約狀態(虛擬)
+ </summary>
+	<param name="FactoryID"></param>
+	<param name="GameFactoryID"></param>
+	<param name="GameServiceID"></param>
+	<param name="RemindStatus"></param>
+	<param name="CreateUser"></param>
+	<param name="ReturnMsgNo"></param>
+	<param name="ReturnMsg"></param>
+	<remarks></remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryType_Insert_A01(System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Billing後台-付費廠商類別維護
+ 新增付費廠商類別
+ </summary>
+	<param name="FactoryTypeDesc"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.SPS_StorePoints_FactoryType_Update_A01(System.Int32,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ Billing後台-付費廠商類別維護
+ 修改付費廠商類別
+ </summary>
+	<param name="FactoryTypeDesc"></param>
+	<param name="UserStamp"></param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+ 回傳ReturnMsgNo,ReturnMsg
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_BK_StorePoints_FactoryType_A01">
+	<summary>
+ Billing後台-付費廠商類別維護
+ 查詢
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.Get_EC_GAME_Type">
+	<summary>
+	</summary>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ReturnDs Dataset</returns>
+	<remarks></remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.GetView_View_StorePoints_CompanyLiaiseList_CPfile(System.String)">
+	<summary>
+  差異報表補跑與取消功能 SDK服務查詢
+ 查詢
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.BeginTrans(System.String@)">
+	<summary>
+ 初始交易確認機制,每個DBService 物件都有自己的begintrans
+ </summary>
+	<param name="oErrMsg">錯誤訊息</param>
+	<returns>執行結果,true就是成功</returns>
+	<remarks></remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.RollbackTrans(System.String@)">
+	<summary>
+ 恢復更改的交易,begintrans之後,當有錯誤交易的時候執行這個
+ </summary>
+	<param name="oErrMsg">執行錯誤訊息</param>
+	<returns>執行成功回傳true</returns>
+	<remarks></remarks>
+</member><member name="M:BKFactoryService.BKFactoryService.CommitTrans(System.String@)">
+	<summary>
+ 確認交易,交易成功之後,執行這個確認交易
+ </summary>
+	<param name="oErrMsg">執行錯誤訊息</param>
+	<returns>執行結果,成功為true</returns>
+	<remarks></remarks>
+</member><member name="P:BKFactoryService.My.MyWebExtension.Computer">
+	<summary>
+ 傳回主機電腦的相關資訊。
+ </summary>
+</member><member name="P:BKFactoryService.My.MyWebExtension.User">
+	<summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member><member name="P:BKFactoryService.My.MyWebExtension.Request">
+	<summary>
+ 傳回 Request 物件。
+ </summary>
+</member><member name="P:BKFactoryService.My.MyWebExtension.Response">
+	<summary>
+傳回 Response 物件。
+ </summary>
+</member><member name="P:BKFactoryService.My.MyWebExtension.Log">
+	<summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member><member name="T:BKFactoryService.My.MyWebExtension">
+	<summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WebService\ePlayWebServiceMAS" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="設定檔1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="06/19/2014 14:30:49" />
+    <file relUrl="bin/ePlayWebServiceMAS.pdb" publishTime="07/31/2014 14:23:33" />
+    <file relUrl="bin/ePlayWebServiceMAS.dll" publishTime="07/31/2014 14:23:33" />
+    <file relUrl="bin/MyCardConn.dll" publishTime="07/30/2012 09:22:45" />
+    <file relUrl="bin/ePlayWebServiceMAS.xml" publishTime="07/31/2014 14:23:33" />
+    <file relUrl="ePlayWebServiceMAS.asmx" publishTime="06/18/2014 11:20:26" />
+  </publishProfile>
+</publishData>

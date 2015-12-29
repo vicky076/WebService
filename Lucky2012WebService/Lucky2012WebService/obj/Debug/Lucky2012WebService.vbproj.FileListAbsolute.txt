@@ -1,0 +1,10 @@
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\bin\Lucky2012WebService.dll
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\bin\Lucky2012WebService.pdb
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\bin\Lucky2012WebService.xml
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\bin\MyCardConn.dll
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\obj\Debug\Lucky2012WebService.vbprojResolveAssemblyReference.cache
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\obj\Debug\Lucky2012WebService.Resources.resources
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\obj\Debug\Lucky2012WebService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\obj\Debug\Lucky2012WebService.dll
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\obj\Debug\Lucky2012WebService.xml
+D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService\obj\Debug\Lucky2012WebService.pdb

@@ -1,0 +1,2342 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FBWebService
+</name>
+</assembly>
+<members>
+<member name="M:FBWebService.dbwebservice.DbWebService.#ctor">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GenCheckCodeForShangHaiCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCardPriceForAcqCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForAcqCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GenCheckCodeForAcqCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.BillatmtradeUpdateCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListGetTradeCodeCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListUpdateTradeCodeCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsert_USDCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.chkLimit_USDCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetFreecardMicroView1Completed">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.ChinaPayInsertMoneyCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetHinetEasyPayMonthCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCardNameForMyCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCardGameTypeForMyCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetBankFactoryGroupForMyCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetBankFactoryForMyCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetBankFactoryPathCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GenMyCardErrorMsgCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.ChkFreeCardCountCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetMicroPaymentSeqCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.chkLimitCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MicropaymentChkCcardRoleCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsertCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MicroSellTradeRenderCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MicroSellTradeRender2Completed">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.preCheckMyCardForCardStoreCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCardPwdCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.FreecardSendSmsCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardSendSmsCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardCPSendSmsCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.TccSMSCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetTccTimeStampCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardErrorLogCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardMicroPaymentSendCoinfirmMailCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetProdInfoCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.InputInvoiceCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.CheckCustIdCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.CheckTempCodeCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.CheckCPTempCodeCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoBillingCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsunCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsunBillingCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GenCheckCodeForESunCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGfCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGfBillingCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTSCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTSBillingCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForLandCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GenCheckCodeForLandCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCardPriceForLandCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForHuananCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GenCheckCodeForHuananCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.CheckBlackIPCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardBlackIpInsertCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdInsertCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdRemoveCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.UpdateMyCardTradeInfoCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfoCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfoExCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardSaveListCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardSaveListSaveCardTypeCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardTakeInvoiceCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoExCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoEx2Completed">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfo14Completed">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCard_CPCheckTempCodeCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListInsertCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRenderCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRenderForAtmCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCPBankFactoryPathCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCPFactoryReturnUrlCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardCheckFFCcardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardChangeSohwCardStatusCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardCustIdAuthInsertCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardCcardWhiteListInsertCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardQuerySaveGameCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.CheckBankProductSnCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardGetAnnCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.QuestionInsertDataCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.Md5Completed">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.MyCardTradeQueryCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.StorePoints_ErrorLog_InsertCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.atmtradeUpdateCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmSnCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmSnBillingCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubonCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubonBillingCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtmCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtmBillingCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetCardPriceForShangHaiCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHaiCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHaiBillingCompleted">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForShangHai(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForShangHaiAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForShangHaiAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForAcq(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForAcqAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForAcqAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForAcq(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForAcqAsync(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForAcqAsync(System.Int32,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForAcq(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForAcqAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForAcqAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.BillatmtradeUpdate(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.BillatmtradeUpdateAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.BillatmtradeUpdateAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListGetTradeCode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListGetTradeCodeAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListGetTradeCodeAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListUpdateTradeCode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListUpdateTradeCodeAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardOnlinePaySellTradeListUpdateTradeCodeAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsert_USD(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsert_USDAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsert_USDAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.chkLimit_USD(System.String,System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.chkLimit_USDAsync(System.String,System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.chkLimit_USDAsync(System.String,System.Int32,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetFreecardMicroView1(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetFreecardMicroView1Async(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetFreecardMicroView1Async(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.ChinaPayInsertMoney(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.ChinaPayInsertMoneyAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.ChinaPayInsertMoneyAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetHinetEasyPayMonth">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetHinetEasyPayMonthAsync">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetHinetEasyPayMonthAsync(System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardNameForMyCard(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardNameForMyCardAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardNameForMyCardAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardGameTypeForMyCard(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardGameTypeForMyCardAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardGameTypeForMyCardAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryGroupForMyCard(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryGroupForMyCardAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryGroupForMyCardAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryForMyCard(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryForMyCardAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryForMyCardAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryPath(System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryPathAsync(System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetBankFactoryPathAsync(System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenMyCardErrorMsg(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenMyCardErrorMsgAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenMyCardErrorMsgAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.ChkFreeCardCount(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.ChkFreeCardCountAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.ChkFreeCardCountAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMicroPaymentSeq(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMicroPaymentSeqAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMicroPaymentSeqAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.chkLimit(System.String,System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.chkLimitAsync(System.String,System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.chkLimitAsync(System.String,System.Int32,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicropaymentChkCcardRole(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicropaymentChkCcardRoleAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicropaymentChkCcardRoleAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsert(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsertAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.OnlinePay_SellTradeListInsertAsync(System.Int32,System.String,System.String,System.String,System.Int32,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicroSellTradeRender(System.Int32,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicroSellTradeRenderAsync(System.Int32,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicroSellTradeRenderAsync(System.Int32,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicroSellTradeRender2(System.Int32,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicroSellTradeRender2Async(System.Int32,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MicroSellTradeRender2Async(System.Int32,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCard(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.preCheckMyCardForCardStore(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.preCheckMyCardForCardStoreAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.preCheckMyCardForCardStoreAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPwd(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPwdAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPwdAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.FreecardSendSms(System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.FreecardSendSmsAsync(System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.FreecardSendSmsAsync(System.String,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSendSms(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSendSmsAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSendSmsAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCPSendSms(System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCPSendSmsAsync(System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCPSendSmsAsync(System.String,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.TccSMS(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.TccSMSAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.TccSMSAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetTccTimeStamp">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetTccTimeStampAsync">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetTccTimeStampAsync(System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardErrorLog(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardErrorLogAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardErrorLogAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardMicroPaymentSendCoinfirmMail(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardMicroPaymentSendCoinfirmMailAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardMicroPaymentSendCoinfirmMailAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetProdInfo(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetProdInfoAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetProdInfoAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.InputInvoice(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.InputInvoiceAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.InputInvoiceAsync(System.Int32,System.String,System.Int32,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckCustId(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckCustIdAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckCustIdAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckTempCode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckTempCodeAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckTempCodeAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckCPTempCode(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckCPTempCodeAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckCPTempCodeAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccno(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoBilling(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoBillingAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoBillingAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForG(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsun(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsunAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsunAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsunBilling(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsunBillingAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForEsunBillingAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForESun(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForESunAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForESunAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGf(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGfAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGfAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGfBilling(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGfBillingAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForGfBillingAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTS(System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTSAsync(System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTSAsync(System.Int32,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTSBilling(System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTSBillingAsync(System.Int32,System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForTSBillingAsync(System.Int32,System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForLand(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForLandAsync(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForLandAsync(System.Int32,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForLand(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForLandAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForLandAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForLand(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForLandAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForLandAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForHuanan(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForHuananAsync(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForHuananAsync(System.Int32,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForHuanan(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForHuananAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GenCheckCodeForHuananAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckBlackIP(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckBlackIPAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckBlackIPAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackIpInsert(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackIpInsertAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackIpInsertAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdInsert(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdInsertAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdInsertAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdRemove(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdRemoveAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardBlackCustIdRemoveAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.UpdateMyCardTradeInfo(System.String,System.String[],System.String[])">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.UpdateMyCardTradeInfoAsync(System.String,System.String[],System.String[])">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.UpdateMyCardTradeInfoAsync(System.String,System.String[],System.String[],System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfo(System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfoAsync(System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfoAsync(System.String,System.String[],System.String[],System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfoEx(System.String,System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfoExAsync(System.String,System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardSingleTradeInfoExAsync(System.String,System.String,System.String[],System.String[],System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSaveList(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSaveListAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSaveListAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSaveListSaveCardType(System.String,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSaveListSaveCardTypeAsync(System.String,System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardSaveListSaveCardTypeAsync(System.String,System.String,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardTakeInvoice(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardTakeInvoiceAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardTakeInvoiceAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfo(System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoAsync(System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoAsync(System.String,System.String[],System.String[],System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoEx(System.String,System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoExAsync(System.String,System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoExAsync(System.String,System.String,System.String[],System.String[],System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoEx2(System.String,FBWebService.dbwebservice.CommandType,System.String,System.String[],System.String[])">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoEx2Async(System.String,FBWebService.dbwebservice.CommandType,System.String,System.String[],System.String[])">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfoEx2Async(System.String,FBWebService.dbwebservice.CommandType,System.String,System.String[],System.String[],System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfo14(System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfo14Async(System.String,System.String[],System.String[],System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetMyCardMultiTradeInfo14Async(System.String,System.String[],System.String[],System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPCheckTempCode(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPCheckTempCodeAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPCheckTempCodeAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListInsert(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListInsertAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListInsertAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRender(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRenderAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRenderAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRenderForAtm(System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRenderForAtmAsync(System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCard_CPTradeListRenderForAtmAsync(System.String,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCPBankFactoryPath(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCPBankFactoryPathAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCPBankFactoryPathAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCPFactoryReturnUrl(System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCPFactoryReturnUrlAsync(System.String,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCPFactoryReturnUrlAsync(System.String,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCheckFFCcard(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCheckFFCcardAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCheckFFCcardAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardChangeSohwCardStatus(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardChangeSohwCardStatusAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardChangeSohwCardStatusAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCustIdAuthInsert(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCustIdAuthInsertAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCustIdAuthInsertAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCcardWhiteListInsert(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCcardWhiteListInsertAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardCcardWhiteListInsertAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardQuerySaveGameCard(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardQuerySaveGameCardAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardQuerySaveGameCardAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckBankProductSn(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckBankProductSnAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CheckBankProductSnAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardGetAnn(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardGetAnnAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardGetAnnAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.QuestionInsertData(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.QuestionInsertDataAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.QuestionInsertDataAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.Md5(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.Md5Async(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.Md5Async(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardTradeQuery(System.DateTime,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardTradeQueryAsync(System.DateTime,System.String,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.MyCardTradeQueryAsync(System.DateTime,System.String,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.StorePoints_ErrorLog_Insert(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.StorePoints_ErrorLog_InsertAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.StorePoints_ErrorLog_InsertAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.atmtradeUpdate(System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.atmtradeUpdateAsync(System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.atmtradeUpdateAsync(System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmSn(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmSnAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmSnAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmSnBilling(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmSnBillingAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmSnBillingAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubon(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubonAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubonAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubonBilling(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubonBillingAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForFubonBillingAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtm(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtmAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtmAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtmBilling(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtmBillingAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForPostWebAtmBillingAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForShangHai(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForShangHaiAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetCardPriceForShangHaiAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHai(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHaiAsync(System.Int32,System.Int32,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHaiAsync(System.Int32,System.Int32,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHaiBilling(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHaiBillingAsync(System.Int32,System.Int32)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.GetAtmAccnoForShangHaiBillingAsync(System.Int32,System.Int32,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.dbwebservice.DbWebService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.DbWebService">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoResult.Atmsn">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoResult.AtmAccno">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.atmtradeUpdateRE.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.atmtradeUpdateRE.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.atmtradeUpdateRE">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardTradeQueryResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardTradeQueryResult.ReturnDataset">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardTradeQueryResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardQuerySaveGameCardResult.ReturnData">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardQuerySaveGameCardResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardQuerySaveGameCardResult.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardQuerySaveGameCardResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCPFactoryReturnUrlResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCPFactoryReturnUrlResult.ReturnUrl">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCPFactoryReturnUrlResult.ReturnFactorySeq">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCPFactoryReturnUrlResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListRenderResultForAtm.ReturnMsgNo">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CPTradeListRenderResultForAtm">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListRenderResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListRenderResult.ReturnUrl">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListRenderResult.ReturnFactorySeq">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CPTradeListRenderResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListInsertResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListInsertResult.TradeSeq">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListInsertResult.TradePrice">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListInsertResult.ServiceName">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CPTradeListInsertResult.PaymentServiceId">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CPTradeListInsertResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckTempCodeResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckTempCodeResult.PaymentId">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckTempCodeResult.ReturnUrl">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckTempCodeResult.ReturnFactoryMasterPageName">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckTempCodeResult.ReturnFactoryThemeName">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckTempCodeResult.ReturnFactorySeq">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckTempCodeResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SaveResult.returnno">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SaveResult.TradeSeq">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SaveResult.CardGroup">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SaveResult.returnmsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.SaveResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardBlackCustIdResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardBlackCustIdResult.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardBlackCustIdResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.InsertBlackIpResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.InsertBlackIpResult.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.InsertBlackIpResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckBlackIpResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckBlackIpResult.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckBlackIpResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForTSResult.Atmsn">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForTSResult.AtmAccno">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForTSResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardSendSmsResult.ReturnNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardSendSmsResult.BuyCustMobile">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardSendSmsResult.TempCode">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardSendSmsResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.FreecardSendSmsResult.FreecardSendSmsSn">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.FreecardSendSmsResult.FreecardSendSmsMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.FreecardSendSmsResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckCardResult.CheckResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckCardResult.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckCardResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardResult.ReturnNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardResult.ReturnMsg">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardResult.CardNum">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetHinetEasyPayMonthResult.ReturnMsg">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetHinetEasyPayMonthResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetHinetEasyPayMonthResult.ReturnDs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetHinetEasyPayMonthResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.ChinaPayInsertMoneyResult.ReturnMsg">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.ChinaPayInsertMoneyResult.ReturnMsgNo">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.ChinaPayInsertMoneyResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SellTradeResult.TradeSeq">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SellTradeResult.ReturnNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SellTradeResult.Tempcode">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SellTradeResult.TradePrice">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.SellTradeResult.BankProductSn">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.SellTradeResult">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListUpdateTradeCodeRE.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListUpdateTradeCodeRE.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListUpdateTradeCodeRE">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListGetTradeCodeRE.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListGetTradeCodeRE.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListGetTradeCodeRE">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.BillatmtradeUpdateRE.ReturnMsgNo">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.BillatmtradeUpdateRE.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.BillatmtradeUpdateRE">
+	<remarks/>
+</member><member name="F:FBWebService.dbwebservice.CommandType.Text">
+	<remarks/>
+</member><member name="F:FBWebService.dbwebservice.CommandType.StoredProcedure">
+	<remarks/>
+</member><member name="F:FBWebService.dbwebservice.CommandType.TableDirect">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CommandType">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForShangHaiCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GenCheckCodeForShangHaiCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForShangHaiCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPriceForAcqCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardPriceForAcqCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPriceForAcqCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForAcqCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForAcqCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForAcqCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForAcqCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GenCheckCodeForAcqCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForAcqCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.BillatmtradeUpdateCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.BillatmtradeUpdateCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.BillatmtradeUpdateCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListGetTradeCodeCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListGetTradeCodeCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListGetTradeCodeCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListUpdateTradeCodeCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListUpdateTradeCodeCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardOnlinePaySellTradeListUpdateTradeCodeCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.OnlinePay_SellTradeListInsert_USDCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.OnlinePay_SellTradeListInsert_USDCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.OnlinePay_SellTradeListInsert_USDCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.chkLimit_USDCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.chkLimit_USDCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.chkLimit_USDCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetFreecardMicroView1CompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetFreecardMicroView1CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetFreecardMicroView1CompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.ChinaPayInsertMoneyCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.ChinaPayInsertMoneyCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.ChinaPayInsertMoneyCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetHinetEasyPayMonthCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetHinetEasyPayMonthCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetHinetEasyPayMonthCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardNameForMyCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardNameForMyCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardNameForMyCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardGameTypeForMyCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardGameTypeForMyCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardGameTypeForMyCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetBankFactoryGroupForMyCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetBankFactoryGroupForMyCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetBankFactoryGroupForMyCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetBankFactoryForMyCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetBankFactoryForMyCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetBankFactoryForMyCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetBankFactoryPathCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetBankFactoryPathCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetBankFactoryPathCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenMyCardErrorMsgCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GenMyCardErrorMsgCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenMyCardErrorMsgCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.ChkFreeCardCountCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.ChkFreeCardCountCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.ChkFreeCardCountCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMicroPaymentSeqCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetMicroPaymentSeqCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMicroPaymentSeqCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.chkLimitCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.chkLimitCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.chkLimitCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MicropaymentChkCcardRoleCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MicropaymentChkCcardRoleCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MicropaymentChkCcardRoleCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.OnlinePay_SellTradeListInsertCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.OnlinePay_SellTradeListInsertCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.OnlinePay_SellTradeListInsertCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MicroSellTradeRenderCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MicroSellTradeRenderCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MicroSellTradeRenderCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MicroSellTradeRender2CompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MicroSellTradeRender2CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MicroSellTradeRender2CompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.preCheckMyCardForCardStoreCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.preCheckMyCardForCardStoreCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.preCheckMyCardForCardStoreCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPwdCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardPwdCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPwdCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.FreecardSendSmsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.FreecardSendSmsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.FreecardSendSmsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardSendSmsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardSendSmsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardSendSmsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCPSendSmsCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardCPSendSmsCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCPSendSmsCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.TccSMSCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.TccSMSCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.TccSMSCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetTccTimeStampCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetTccTimeStampCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetTccTimeStampCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardErrorLogCompletedEventHandler">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardMicroPaymentSendCoinfirmMailCompletedEventHandler">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetProdInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetProdInfoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetProdInfoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.InputInvoiceCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.InputInvoiceCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.InputInvoiceCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckCustIdCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckCustIdCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckCustIdCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckTempCodeCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckTempCodeCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckTempCodeCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckCPTempCodeCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckCPTempCodeCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckCPTempCodeCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForGCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForGCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForGCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForEsunCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForEsunCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForEsunCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForEsunBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForEsunBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForEsunBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForESunCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GenCheckCodeForESunCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForESunCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForGfCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForGfCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForGfCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForGfBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForGfBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForGfBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForTSCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForTSCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForTSCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForTSBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForTSBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForTSBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForLandCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForLandCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForLandCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForLandCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GenCheckCodeForLandCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForLandCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPriceForLandCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardPriceForLandCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPriceForLandCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForHuananCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForHuananCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForHuananCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForHuananCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GenCheckCodeForHuananCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GenCheckCodeForHuananCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckBlackIPCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckBlackIPCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckBlackIPCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardBlackIpInsertCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardBlackIpInsertCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardBlackIpInsertCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardBlackCustIdInsertCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardBlackCustIdInsertCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardBlackCustIdInsertCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardBlackCustIdRemoveCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardBlackCustIdRemoveCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardBlackCustIdRemoveCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.UpdateMyCardTradeInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardSingleTradeInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetMyCardSingleTradeInfoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardSingleTradeInfoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardSingleTradeInfoExCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetMyCardSingleTradeInfoExCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardSingleTradeInfoExCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardSaveListCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardSaveListCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardSaveListCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardSaveListSaveCardTypeCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardSaveListSaveCardTypeCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardSaveListSaveCardTypeCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardTakeInvoiceCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardTakeInvoiceCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardTakeInvoiceCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfoCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetMyCardMultiTradeInfoCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfoCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfoExCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetMyCardMultiTradeInfoExCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfoExCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfoEx2CompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetMyCardMultiTradeInfoEx2CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfoEx2CompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfo14CompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetMyCardMultiTradeInfo14CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetMyCardMultiTradeInfo14CompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPCheckTempCodeCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCard_CPCheckTempCodeCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPCheckTempCodeCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPTradeListInsertCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCard_CPTradeListInsertCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPTradeListInsertCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPTradeListRenderCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCard_CPTradeListRenderCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPTradeListRenderCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPTradeListRenderForAtmCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCard_CPTradeListRenderForAtmCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCard_CPTradeListRenderForAtmCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCPBankFactoryPathCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCPBankFactoryPathCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCPBankFactoryPathCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCPFactoryReturnUrlCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCPFactoryReturnUrlCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCPFactoryReturnUrlCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCheckFFCcardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardCheckFFCcardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCheckFFCcardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardChangeSohwCardStatusCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardChangeSohwCardStatusCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardChangeSohwCardStatusCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCustIdAuthInsertCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardCustIdAuthInsertCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCustIdAuthInsertCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCcardWhiteListInsertCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardCcardWhiteListInsertCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardCcardWhiteListInsertCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardQuerySaveGameCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardQuerySaveGameCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardQuerySaveGameCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckBankProductSnCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.CheckBankProductSnCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.CheckBankProductSnCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardGetAnnCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardGetAnnCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardGetAnnCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.QuestionInsertDataCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.QuestionInsertDataCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.QuestionInsertDataCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.Md5CompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.Md5CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.Md5CompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardTradeQueryCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.MyCardTradeQueryCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.MyCardTradeQueryCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.StorePoints_ErrorLog_InsertCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.StorePoints_ErrorLog_InsertCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.StorePoints_ErrorLog_InsertCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.atmtradeUpdateCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.atmtradeUpdateCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.atmtradeUpdateCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmSnCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmSnCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmSnCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmSnBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmSnBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmSnBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForFubonCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForFubonCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForFubonCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForFubonBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForFubonBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForFubonBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForPostWebAtmCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForPostWebAtmCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForPostWebAtmCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForPostWebAtmBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForPostWebAtmBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForPostWebAtmBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPriceForShangHaiCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetCardPriceForShangHaiCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetCardPriceForShangHaiCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForShangHaiCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForShangHaiCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForShangHaiCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForShangHaiBillingCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.dbwebservice.GetAtmAccnoForShangHaiBillingCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.dbwebservice.GetAtmAccnoForShangHaiBillingCompletedEventArgs">
+	<remarks/>
+</member><member name="P:FBWebService.My.MyWebExtension.Computer">
+	<summary>
+ 傳回主機電腦的相關資訊。
+ </summary>
+</member><member name="P:FBWebService.My.MyWebExtension.User">
+	<summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member><member name="P:FBWebService.My.MyWebExtension.Request">
+	<summary>
+ 傳回 Request 物件。
+ </summary>
+</member><member name="P:FBWebService.My.MyWebExtension.Response">
+	<summary>
+ 傳回 Response 物件。
+ </summary>
+</member><member name="P:FBWebService.My.MyWebExtension.Log">
+	<summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member><member name="T:FBWebService.My.MyWebExtension">
+	<summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+	<remarks></remarks>
+</member><member name="P:FBWebService.My.Resources.Resources.ResourceManager">
+	<summary>
+  傳回這個類別使用的快取的 ResourceManager 執行個體。
+</summary>
+</member><member name="P:FBWebService.My.Resources.Resources.Culture">
+	<summary>
+  覆寫目前執行緒的 CurrentUICulture 屬性，對象是所有
+  使用這個強型別資源類別的資源查閱。
+</summary>
+</member><member name="T:FBWebService.My.Resources.Resources">
+	<summary>
+  用於查詢當地語系化字串等的強型別資源類別。
+</summary>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSInGameSaveTradeListInsert(System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+   MyCardInGame
+ </summary>
+	<param name="GameFacID">遊戲廠商代號,格式String</param>
+	<param name="MyCardCardId">MyCard卡號,格式String</param>
+	<param name="GameCustId">遊戲帳號,格式String</param>
+	<param name="CreateIP">新增者IP,格式String</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,MyCardPoint 回傳廠商交易序號,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardInGame(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<summary>
+   MyCardInGame
+ </summary>
+	<param name="MyCardID">MyCard卡號,格式String</param>
+	<param name="MyCardPW">MyCard密碼,格式String</param>
+	<param name="GameFacID">遊戲廠商代號,格式String</param>
+	<param name="GameUser">遊戲帳號,格式String</param>
+	<param name="Game_No">交易序號,格式String</param>
+	<param name="GameCard_ID">廠商本身儲值的卡,格式String</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,MyCardPoint 點數,MyCardProjetNo活動代號,MyCardType 卡別</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSInGameSaveGetInfo(System.String,System.Int32,System.String,System.Int32)">
+	<summary>
+   MyCardInGame
+ </summary>
+	<param name="TradeSeq">交易序號,格式String</param>
+	<param name="CardPoint">點數,格式Integer</param>
+	<param name="oProjNo">活動代號,格式String</param>
+	<param name="CardKind">卡通路別(2實體,1虛擬),格式Integer</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSMemberAddGetOTPCode(System.String,System.String)">
+	<summary>
+   MyCardInGame
+ </summary>
+	<param name="TradeSeq">交易序號,格式String</param>
+	<param name="OTPCode">OTP交易,格式String</param>
+	<returns>InnerOTPCode OTP ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSInGameSaveGetGamePoint(System.String,System.Int32,System.String,System.String)">
+	<summary>
+   MyCardInGame
+ </summary>
+	<param name="GameCustId">遊戲帳號,格式String</param>
+	<param name="GamePoint">實際轉入的遊戲點數,格式Integer</param>
+	<param name="TradeSeq">交易序號,格式String</param>
+	<param name="GameNo">交易序號,格式String</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSInGameSaveGetGamePoint_NewAPI(System.String,System.Decimal,System.String,System.String)">
+	<summary>
+ MyCardInGame
+ NewAPI
+ </summary>
+	<param name="GameCustId">遊戲帳號,格式String</param>
+	<param name="GamePoint">實際轉入的遊戲點數,格式Integer</param>
+	<param name="TradeSeq">交易序號,格式String</param>
+	<param name="GameNo">交易序號,格式String</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSInGameSaveGetGamePoint_NewAPI_Bonus(System.String,System.Decimal,System.String,System.String,System.String)">
+	<summary>
+ MyCardInGame - BONUS
+ 如果有Bonus交易序號，就會更新
+ </summary>
+	<param name="GameCustId">遊戲帳號,格式String</param>
+	<param name="GamePoint">實際轉入的遊戲點數,格式Integer</param>
+	<param name="TradeSeq">交易序號,格式String</param>
+	<param name="GameNo">交易序號,格式String</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSaveInGameSaveTradeListDiffReport(System.String,System.String,System.String)">
+	<summary>
+   MyCardInGame差報
+ </summary>
+	<param name="StartDate">起始,格式String</param>
+	<param name="EndDate">結束,格式Integer</param>
+	<param name="MyCardID">卡號,格式Integer</param>
+	<returns>DataSet回傳MyCardCardId, GameCustId, TradeSeq, SaveDate</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_BillingSave_GetProductInfo(System.String,System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ Billing初始
+ </summary>
+	<param name="ProductServiceId">產品代碼</param>
+	<param name="TradePrice">產品金額</param>
+	<param name="UserId">使用者帳號</param>
+	<param name="UserIp">使用者IP</param>
+	<param name="TradeType">1:FACEBOOK 2會員加點IP</param>
+	<returns>TradeSeq:儲值交易序號;GamePrice:facebook點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_BillingSave_GetBillingAuthCode(System.String,System.String)">
+	<summary>
+ Billing記錄Authcode
+ </summary>
+	<param name="TradeSeq">儲值交易序號</param>
+	<param name="BillingAuthCode">billing驗證碼</param>
+	<returns>ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_BillingSave_RequestSaveGame(System.String)">
+	<summary>
+ Billing儲值成功，但要改CPSaveService的table狀態
+ </summary>
+	<param name="BillingAuthCode">billing驗證碼</param>
+	<returns>TradeSeq:儲值交易序號;TradePrice:價格;GamePrice:fb點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_BillingSave_ResponseSaveGame(System.String,System.Int32,System.String)">
+	<summary>
+ 加fb點數，改CPSaveService的table狀態
+ </summary>
+	<param name="TradeSeq">儲值交易序號</param>
+	<param name="GamePrice">轉換後的點數</param>
+	<param name="GameNo">fb交易序號</param>
+	<returns>BillingAuthCode:billing驗證碼;GameCustId:使用者帳號;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_BillingSave_CheckSaveTrade(System.String)">
+	<summary>
+ 查詢交易是否成功
+ </summary>
+	<param name="TradeSeq">儲值交易序號</param>
+	<returns>GamePrice:fb點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_MemberCostSaveTradeList_Insert(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<summary>
+ 會員扣點初始
+ </summary>
+	<param name="GameFacId">廠商ID</param>
+	<param name="GameFacSerId">廠商服務ID</param>
+	<param name="OneTimePassport">登入機碼</param>
+	<param name="GameCustId">會員帳號</param>
+	<param name="GameUserId">UID帳號</param>
+	<param name="CostPoint">扣點點數</param>
+	<param name="CreateIP">IP</param>
+	<returns>ReturnTradeSeq:扣點交易序號;SavePoint:轉換儲值點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+ 20110216 多加一個記錄uid的欄位 詹旻融
+
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_MemberCostAuthCode_Insert(System.String,System.String)">
+	<summary>
+ 記錄扣點AuthCode
+ </summary>
+	<param name="TradeSeq">扣點交易序號</param>
+	<param name="AuthCode">授權碼</param>
+	<returns>ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_MemberCost_RequestSaveGame(System.String)">
+	<summary>
+ 扣點成功,更新table狀態
+ </summary>
+	<param name="TradeSeq"></param>
+	<returns>SavePoint:儲值兌換點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_MemberCost_ResponseSaveGame(System.String,System.String)">
+	<summary>
+ 扣點流程完成
+ </summary>
+	<param name="TradeSeq">扣點交易序號</param>
+	<param name="GameNo">遊戲方訂單代號</param>
+	<returns>ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCard_MemberService_GetElectronicWallet_FactoryService(System.String)">
+	<summary>
+ 扣點品項
+ </summary>
+	<param name="FacId">廠商id</param>
+	<returns>Dataset(FacId, FacSerId, SerId,ServiceName,Price);ReturnMsgNo;ReturnMsg</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.Get_CPSave_FaceBookGameFactory">
+	<summary>
+   取得遊戲廠商資料，前台首頁配合遊戲區使用
+ </summary>
+	<returns>DataSet回傳欄位Sn, GameFactoryName, PICAddress, Status, Order</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.Get_CPSave_FaceBookGame(System.Int32)">
+	<summary>
+   取得廠商遊戲資料，前台廠商遊戲總頁用
+ </summary>
+	<param name="GameFactorySn">遊戲廠商Sn</param>
+	<returns>DataSet回傳欄位Sn, GameName,GameFactorySn,GameFactoryName,FacPICAddress, PICAddress,GameLink, Status, [Order]</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.Get_CPSave_FaceBookGameInfo(System.Int32,System.String)">
+	<summary>
+   取得遊戲介紹資料，前台遊戲介紹頁用
+ </summary>
+	<param name="GameSn">遊戲Sn</param>
+	<param name="LanguageID">語系代碼</param>
+	<returns>DataSet回傳欄位Sn, LanguageSn, LanguageID, Language, GameSn, GameName,GameLink, GameInfo,PICAddress</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCard_MemberCheckStatus(System.String,System.String)">
+	<summary>
+ 檢查會員狀態(暫時凍結,永久凍結,點數鎖定)
+ </summary>
+	<param name="MemberId">會員帳號</param>
+	<param name="MemberIp">IP</param>
+	<returns>ReturnMsgNo,ReturnMsg,ReturnErrorCode,ReturnLogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCard_MemberIdTradeLimitForFB_A01(System.String,System.Int32,System.String)">
+	<summary>
+ 會員帳號限制功能(-10 超過會員上限-20需綁定晶片卡或Motp)
+ </summary>
+	<param name="MemberId">MyCard會員帳號</param>
+	<param name="TradePoint">點數</param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSInGameSaveGetInfo_NewAPI(System.String,System.Int32,System.String,System.Int32)">
+	<summary>
+ 2013-9-9
+ FB新API 卡片儲值
+ </summary>
+	<param name="TradeSeq">交易序號,格式String</param>
+	<param name="CardPoint">點數,格式Integer</param>
+	<param name="oProjNo">活動代號,格式String</param>
+	<param name="CardKind">卡通路別(2實體,1虛擬),格式Integer</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_MemberCost_RequestSaveGame_NewAPI(System.String)">
+	<summary>
+ 2013-9-9
+ FB新API 扣點
+ </summary>
+	<param name="TradeSeq"></param>
+	<returns>SavePoint:儲值兌換點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_BillingSave_RequestSaveGame_NewAPI(System.String)">
+	<summary>
+ 2013-9-9
+ FB新API Billing
+ Billing儲值成功，但要改CPSaveService的table狀態
+ </summary>
+	<param name="BillingAuthCode">billing驗證碼</param>
+	<returns>TradeSeq:儲值交易序號;TradePrice:價格;GamePrice:fb點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCardCPSSInGameSaveTradeListInsert_NewAPI(System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ 2013-9-9 New API
+   MyCardInGame
+ </summary>
+	<param name="GameFacID">遊戲廠商代號,格式String</param>
+	<param name="MyCardCardId">MyCard卡號,格式String</param>
+	<param name="GameCustId">遊戲帳號,格式String</param>
+	<param name="CreateIP">新增者IP,格式String</param>
+	<returns>ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,MyCardPoint 回傳廠商交易序號,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_MemberCostSaveTradeList_Insert_NewAPI(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<summary>
+ 2013-9-9 New API
+ 會員扣點初始
+ </summary>
+	<param name="GameFacId">廠商ID</param>
+	<param name="GameFacSerId">廠商服務ID</param>
+	<param name="OneTimePassport">登入機碼</param>
+	<param name="GameCustId">會員帳號</param>
+	<param name="GameUserId">UID帳號</param>
+	<param name="CostPoint">扣點點數</param>
+	<param name="CreateIP">IP</param>
+	<returns>ReturnTradeSeq:扣點交易序號;SavePoint:轉換儲值點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+ 20110216 多加一個記錄uid的欄位 詹旻融
+
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_BillingSave_GetProductInfo_NewAPI(System.String,System.Int32,System.String,System.String,System.Int32)">
+	<summary>
+ 2013-9-9 New API
+ Billing初始
+ </summary>
+	<param name="ProductServiceId">產品代碼</param>
+	<param name="TradePrice">產品金額</param>
+	<param name="UserId">使用者帳號</param>
+	<param name="UserIp">使用者IP</param>
+	<param name="TradeType">1:FACEBOOK 2會員加點IP</param>
+	<returns>TradeSeq:儲值交易序號;GamePrice:facebook點數;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.CPSS_MemberCostSaveTradeList_Insert_NewAPI03(System.String,System.String,System.String,System.String,System.Int32,System.String,System.String)">
+	<summary>
+ MyCard_CPSaveService.dbo.CPSS_MemberCostSaveTradeList_Insert_A02(已不使用)
+ 2014/07/17 會員扣點初始交易
+ </summary>
+	<param name="GameFacId">廠商ID</param>
+	<param name="GameFacSerId">廠商服務ID</param>
+	<param name="OneTimePassport">登入機碼</param>
+	<param name="GameCustId">會員帳號</param>
+	<param name="GameUserId">UID帳號</param>
+	<param name="CostPoint">扣點點數</param>
+	<param name="CreateIp">IP</param>
+	<returns>ReturnTradeSeq :扣點交易序號;SavePoint:轉換儲值點數;ServiceTypeSn:服務typesn;ReturnMsgNo;ReturnMsg;ErrorCode;LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardServiceForInGame.MyCard_MemberQueryUserMail_A01(System.String)">
+	<summary>
+   會員EMAIL
+ </summary>
+	<param name="MyCardCustId">會員帳號</param>
+	<returns> ReturnNo 回傳代碼 ,ReturnMsg 回傳訊息,ErrorCode 回傳ErrorCode,LogSn 回傳LogSn</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.MyCardMemService.AddGetActivityNum(System.String,System.String)">
+	<summary>
+ 記錄活動代號
+
+ </summary>
+	<param name="AuthCode">授權碼</param>
+	<param name="ActiveCode">活動代號</param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.MyCardMemService.MyCard_MemberService_CheckActivityNum(System.String)">
+	<summary>
+ 20120308 qq 帶入活動代號查詢加點服務資訊
+
+ </summary>
+	<param name="ActivityNum">活動代號</param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.fbservice.ConnectUrl(System.String)">
+	<summary>
+ 回傳字串以導頁至Facebook做登入動作
+ </summary>
+	<param name="CallBackUrl">登入後導回的頁面</param>
+	<returns>ConnectString</returns>
+	<remarks>
+ CallBackUrl參數，例：http://apps.facebook.com/mycardpoints/
+ 回傳字串用Response.Write(ConnectString)方式以導頁至Facebook做登入動作
+ </remarks>
+</member><member name="M:FBWebService.fbservice.GetFBCredits(System.Int32,System.String,System.Decimal,System.String)">
+	<summary>
+ 轉給用戶Facebook Credits
+ </summary>
+	<param name="TransferValue">轉給用戶多少Facebook幣</param>
+	<param name="uid">用戶的Facebook UID</param>
+	<param name="discount">折扣</param>
+	<param name="txn_id">廠商交易序號</param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>轉給用戶Facebook Credits
+ 如果ReturnMsgNo=1表示FB給幣成功，ReturnMsg回傳FB OrderId，把FB OrderId記錄進DB中。
+ </remarks>
+</member><member name="M:FBWebService.fbservice.GetFBCreditsHK(System.Int32,System.String,System.Decimal,System.String)">
+	<summary>
+ 轉給用戶Facebook Credits(香港用)
+ </summary>
+	<param name="TransferValue">轉給用戶多少Facebook幣</param>
+	<param name="uid">用戶的Facebook UID</param>
+	<param name="discount">折扣</param>
+	<param name="txn_id">廠商交易序號</param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>轉給用戶Facebook Credits</remarks>
+</member><member name="M:FBWebService.fbservice.GetFbCreditAPAC(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ 20130618 紹安 新版加點 API 
+ sku,productDenomination,productCurrency應為一組由DB查詢的結果
+ </summary>
+	<param name="sku">API文件sku</param>
+	<param name="merchant">店家</param>
+	<param name="aPin">Mycard交易序號</param>
+	<param name="fbThirdPartyId">登入後呼叫GetThirdpartyid</param>
+	<param name="userPC">登入後呼叫GetCurrency</param>
+	<param name="productDenomination">API文件productDenomination</param>
+	<param name="productCurrency">API文件productCurrency</param>
+	<param name="ts">UNIX時間 GetUnixTime</param>
+	<returns>回傳交易結果 resultcode判斷</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.fbservice.GetFbCreditAPAC_HK(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32)">
+	<summary>
+ 這Function沒用到-統一用台灣正式的APPID
+ 20130618 紹安 新版加點 API 
+ sku,productDenomination,productCurrency應為一組由DB查詢的結果
+ </summary>
+	<param name="sku">API文件sku</param>
+	<param name="merchant">店家</param>
+	<param name="aPin">Mycard交易序號</param>
+	<param name="fbThirdPartyId">登入後呼叫GetThirdpartyid</param>
+	<param name="userPC">登入後呼叫GetCurrency</param>
+	<param name="productDenomination">API文件productDenomination</param>
+	<param name="productCurrency">API文件productCurrency</param>
+	<param name="ts">UNIX時間 GetUnixTime</param>
+	<returns>回傳交易結果 resultcode判斷</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.fbservice.GetFbCreditAPACForBonus(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Int32,System.String)">
+	<summary>
+ 20140711 qq GMG加點 API 增加活動代碼額外贈點 
+ sku,productDenomination,productCurrency應為一組由DB查詢的結果
+ </summary>
+	<param name="sku">API文件sku</param>
+	<param name="merchant">店家</param>
+	<param name="aPin">Mycard交易序號</param>
+	<param name="fbThirdPartyId">登入後呼叫GetThirdpartyid</param>
+	<param name="userPC">登入後呼叫GetCurrency</param>
+	<param name="productDenomination">API文件productDenomination</param>
+	<param name="productCurrency">API文件productCurrency</param>
+	<param name="ts">UNIX時間 GetUnixTime</param>
+	<returns>回傳交易結果 resultcode判斷</returns>
+	<param name="ProjNo">活動代碼</param>
+	<remarks></remarks>
+</member><member name="M:FBWebService.fbservice.GetAccessToken(System.String,System.String)">
+	<summary>
+ 取得AccessToken
+ </summary>
+	<param name="CallBackUrl">登入時一樣的回傳頁面</param>
+	<param name="code">facebook登入成功後取得的參數code</param>
+	<returns>AccessToken字串</returns>
+	<remarks>
+ 如果回傳空值，請將用戶重新導回登入頁面
+ </remarks>
+</member><member name="M:FBWebService.fbservice.GetUserData(System.String)">
+	<summary>
+ 取得用戶資料
+ </summary>
+	<param name="AccessToken">登入時取得的AccessToken</param>
+	<returns>ReturnMsgNo,ReturnMsg,ReturnDS</returns>
+	<remarks>
+ 回傳DataSet的欄位格式：id,name,birthday,gender,email,first_name,last_name
+ </remarks>
+</member><member name="M:FBWebService.fbservice.GetUserUID(System.String)">
+	<summary>
+ 取得用戶uid
+ </summary>
+	<param name="AccessToken">登入時取得的AccessToken</param>
+	<returns>ReturnMsgNo,ReturnMsg,ReturnUID</returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.fbservice.GetErrorMsg(System.Int32,System.String)">
+	<summary>
+ 取得錯誤訊息
+ </summary>
+	<param name="Type">1:中文, 其他:英文</param>
+	<param name="ErrorCode">錯誤代碼</param>
+	<returns>ReturnMsgNo,ReturnMsg</returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.fbservice.GetUserDataFromSignedRequest(System.String)">
+	<summary>
+ 解析FB POST過來的SignedRequest，解密並驗證得到相關資料
+ </summary>
+	<param name="SignedRequest">FB POST過來的SignedRequest</param>
+	<returns>ReturnMsgNo,ReturnMsg,ReturnDS</returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.fbservice.GetAccessTokenForOtherAPP(System.String,System.String,System.String,System.String)">
+	<summary>
+ 取得AccessToken
+ </summary>
+	<param name="client_id"></param>
+	<param name="client_secret"></param>
+	<param name="CallBackUrl"></param>
+	<param name="code"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.fbservice.GetThirdpartyid(System.String)">
+	<summary>
+ 取得使用者目前的thirdpartyid
+ 參考 https://developers.facebook.com/blog/post/431/
+ </summary>
+	<param name="AccessToken">AccessToken</param>
+	<returns>third_party_id</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.fbservice.GetCurrency(System.String)">
+	<summary>
+ 取得已登入使用者的地區資料
+ 參考 https://developers.facebook.com/docs/howtos/user-currency/
+ </summary>
+	<param name="AccessToken">AccessToken</param>
+	<returns>user_currency=使用者地區\ncurrency = 使用者地區的詳細資料</returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.fbservice.PostWall(System.String,System.String)">
+	<summary>
+ 發布塗鴉牆
+ </summary>
+	<param name="PostUrl">https://graph.facebook.com/me/feed</param>
+	<param name="PostString"></param>
+	<returns></returns>
+	<remarks>
+	</remarks>
+</member><member name="M:FBWebService.fbservice.CPSS_RepairCodeUpdate(System.String,System.String)">
+	<summary>
+ 2013-11-19 
+ 記錄FB API失敗的字串
+ </summary>
+	<param name="TradeSeq">交易序號</param>
+	<param name="RepairCode">POST字串</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.fbservice.RepairCodePost(System.String)">
+	<summary>
+ 2013-11-19 
+ FB補儲重新發送
+ </summary>
+	<param name="PostStr">POST字串</param>
+	<returns></returns>
+	<remarks></remarks>
+</member><member name="M:FBWebService.FacebookService.FacebookService.#ctor">
+	<remarks/>
+</member><member name="E:FBWebService.FacebookService.FacebookService.PostnGetResponseCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.FacebookService.FacebookService.PostnGetResponseJSONCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.FacebookService.FacebookService.GetResponseHTMLCompleted">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.PostnGetResponse(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.PostnGetResponseAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.PostnGetResponseAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.PostnGetResponseJSON(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.PostnGetResponseJSONAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.PostnGetResponseJSONAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.GetResponseHTML(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.GetResponseHTMLAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.GetResponseHTMLAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.FacebookService.FacebookService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:FBWebService.FacebookService.FacebookService">
+	<remarks/>
+</member><member name="T:FBWebService.FacebookService.PostnGetResponseCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.FacebookService.PostnGetResponseCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.FacebookService.PostnGetResponseCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.FacebookService.PostnGetResponseJSONCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.FacebookService.PostnGetResponseJSONCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.FacebookService.PostnGetResponseJSONCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.FacebookService.GetResponseHTMLCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.FacebookService.GetResponseHTMLCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.FacebookService.GetResponseHTMLCompletedEventArgs">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.#ctor">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.MyCardRenderCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.MyCardRenderVCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.InGameQueryMyCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.GetInGameIdCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.InGameQueryMyCardForULCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.MyCardQueryTradeServiceCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.InGameQueryBookMyCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.BookMyCardUseageCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.CommitMyCardUseageCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.MyCardDisCardForFactoryCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.MyCardPreCheckCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.BookGameCardCompleted">
+	<remarks/>
+</member><member name="E:FBWebService.Mycardservice.MyCardService.GetInGameId1Completed">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardRender(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardRenderAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardRenderAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardRenderV(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardRenderVAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardRenderVAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryMyCard(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryMyCardAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryMyCardAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.GetInGameId(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.GetInGameIdAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.GetInGameIdAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryMyCardForUL(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryMyCardForULAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryMyCardForULAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardQueryTradeService(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardQueryTradeServiceAsync(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardQueryTradeServiceAsync(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryBookMyCard(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryBookMyCardAsync(System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.InGameQueryBookMyCardAsync(System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.BookMyCardUseage(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.BookMyCardUseageAsync(System.String,System.String,System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.BookMyCardUseageAsync(System.String,System.String,System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.CommitMyCardUseage(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.CommitMyCardUseageAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.CommitMyCardUseageAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardDisCardForFactory(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardDisCardForFactoryAsync(System.String,System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardDisCardForFactoryAsync(System.String,System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardPreCheck(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardPreCheckAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.MyCardPreCheckAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.BookGameCard(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.BookGameCardAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.BookGameCardAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.GetInGameId1(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.GetInGameId1Async(System.String,System.String)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.GetInGameId1Async(System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FBWebService.Mycardservice.MyCardService.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardService">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnSaveResult.ReturnNo">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnSaveResult.ReturnMsg">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnSaveResult.MyCardPoint">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnSaveResult.MyCardProjectNo">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnSaveResult.MyCardType">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.ReturnSaveResult">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookCardResult.SaveSeq">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookCardResult.Card_id">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookCardResult.Card_Psw">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookCardResult.MyCardProjNo">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookCardResult.ReturnNo">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookCardResult.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.BookCardResult">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ResultClass.ReturnNo">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ResultClass.ReturnMsg">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.ResultClass">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnQueryMyCardResult.ReturnNo">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnQueryMyCardResult.ReturnMsg">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnQueryMyCardResult.MyCardPoint">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnQueryMyCardResult.MyCardProjectNo">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.ReturnQueryMyCardResult.MyCardType">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.ReturnQueryMyCardResult">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardRenderCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.MyCardRenderCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardRenderCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardRenderVCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.MyCardRenderVCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardRenderVCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.InGameQueryMyCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.InGameQueryMyCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.InGameQueryMyCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.GetInGameIdCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.GetInGameIdCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.GetInGameIdCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.InGameQueryMyCardForULCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.InGameQueryMyCardForULCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.InGameQueryMyCardForULCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardQueryTradeServiceCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.MyCardQueryTradeServiceCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardQueryTradeServiceCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.InGameQueryBookMyCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.InGameQueryBookMyCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.InGameQueryBookMyCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.BookMyCardUseageCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookMyCardUseageCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.BookMyCardUseageCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.CommitMyCardUseageCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.CommitMyCardUseageCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.CommitMyCardUseageCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardDisCardForFactoryCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.MyCardDisCardForFactoryCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardDisCardForFactoryCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardPreCheckCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.MyCardPreCheckCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.MyCardPreCheckCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.BookGameCardCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.BookGameCardCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.BookGameCardCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.GetInGameId1CompletedEventHandler">
+	<remarks/>
+</member><member name="P:FBWebService.Mycardservice.GetInGameId1CompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FBWebService.Mycardservice.GetInGameId1CompletedEventArgs">
+	<remarks/>
+</member>
+</members>
+</doc>

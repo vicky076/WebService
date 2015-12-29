@@ -1,0 +1,10 @@
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\bin\ePlayWebServiceHK.dll
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\bin\ePlayWebServiceHK.pdb
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\bin\ePlayWebServiceHK.xml
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\bin\MyCardConn.dll
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\obj\Debug\ePlayWebServiceHK.vbprojResolveAssemblyReference.cache
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\obj\Debug\ePlayWebServiceHK.Resources.resources
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\obj\Debug\ePlayWebServiceHK.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\obj\Debug\ePlayWebServiceHK.dll
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\obj\Debug\ePlayWebServiceHK.xml
+D:\Project\MyCardService\ePlayWebServiceHK\ePlayWebServiceHK\obj\Debug\ePlayWebServiceHK.pdb

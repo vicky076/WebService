@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FBWebService", "FBWebService\FBWebService.vbproj", "{38F97183-E0A8-4068-AD31-626D36A2D5A8}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "FacebookService", "..\FacebookService\FacebookService\FacebookService.vbproj", "{7D147425-619E-469B-8FC3-3969F29DCC38}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 3
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = http://foundation2008:8080/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = FBWebService\\FBWebService.vbproj
+		SccProjectName1 = FBWebService
+		SccLocalPath1 = FBWebService
+		SccProjectUniqueName2 = ..\\FacebookService\\FacebookService\\FacebookService.vbproj
+		SccProjectName2 = ../FacebookService/FacebookService
+		SccLocalPath2 = ..\\FacebookService\\FacebookService
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{38F97183-E0A8-4068-AD31-626D36A2D5A8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{38F97183-E0A8-4068-AD31-626D36A2D5A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{38F97183-E0A8-4068-AD31-626D36A2D5A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{38F97183-E0A8-4068-AD31-626D36A2D5A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7D147425-619E-469B-8FC3-3969F29DCC38}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7D147425-619E-469B-8FC3-3969F29DCC38}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7D147425-619E-469B-8FC3-3969F29DCC38}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7D147425-619E-469B-8FC3-3969F29DCC38}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WebService\BKFactoryService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="設定檔1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/BKFactoryService.pdb" publishTime="07/14/2015 13:34:35" />
+    <file relUrl="bin/BKFactoryService.xml" publishTime="07/14/2015 13:34:35" />
+    <file relUrl="BKFactoryService.asmx" publishTime="07/03/2015 15:17:37" />
+    <file relUrl="bin/BKFactoryService.dll" publishTime="07/14/2015 13:34:35" />
+    <file relUrl="Web.config" publishTime="07/03/2015 15:49:59" />
+    <file relUrl="bin/MyCardConn.dll" publishTime="07/11/2012 17:52:00" />
+  </publishProfile>
+</publishData>

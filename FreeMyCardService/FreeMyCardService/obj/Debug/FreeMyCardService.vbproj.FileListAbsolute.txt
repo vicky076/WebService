@@ -1,0 +1,8 @@
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\bin\FreeMyCardService.dll
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\bin\FreeMyCardService.pdb
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\bin\FreeMyCardService.xml
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\obj\Debug\FreeMyCardService.Resources.resources
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\obj\Debug\FreeMyCardService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\obj\Debug\FreeMyCardService.dll
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\obj\Debug\FreeMyCardService.xml
+D:\Project\MyCardService\FreeMyCardService\FreeMyCardService\obj\Debug\FreeMyCardService.pdb

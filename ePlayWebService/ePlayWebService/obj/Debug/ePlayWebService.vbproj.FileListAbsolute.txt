@@ -1,0 +1,9 @@
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\bin\ePlayWebService.dll
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\bin\ePlayWebService.pdb
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\bin\ePlayWebService.xml
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\bin\MyCardConn.dll
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\obj\Debug\ePlayWebService.Resources.resources
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\obj\Debug\ePlayWebService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\obj\Debug\ePlayWebService.dll
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\obj\Debug\ePlayWebService.xml
+D:\Project\MyCardService\ePlayWebService\ePlayWebService\obj\Debug\ePlayWebService.pdb

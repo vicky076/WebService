@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Lucky2012WebService">
+</Property><Property Name="方案檔" Value="D:\Project\MyCardService\Lucky2012WebService\Lucky2012WebService.sln">
+</Property><Property Name="Date" Value="2015年7月21日">
+</Property><Property Name="Time" Value="上午 10:17">
+</Property><Property Name="記錄檔編號" Value="2">
+</Property></Properties><Event ErrorLevel="1" Project="Lucky2012WebService" Source="Lucky2012WebService\Lucky2012WebService.vbproj" Description="您的專案目標為 .NET Framework 2.0 或 3.0。如果您的專案使用的組件需要較新的 .NET Framework，您的專案將無法建置。您可以按一下 [專案] 功能表的 [屬性]，然後選擇在 [.NET Framework] 下拉式方塊中選擇新的版本，以變更 .NET Framework 版本 (在 Visual Basic 中，它是位於按一下 [進階編譯器選項...] 按鈕時出現的 [編譯] 索引標籤上)。">
+</Event><Event ErrorLevel="0" Project="Lucky2012WebService" Source="Lucky2012WebService\Lucky2012WebService.vbproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="Lucky2012WebService" Source="Lucky2012WebService\Lucky2012WebService.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\TestProject1.vbproj" Description="專案轉換成功">
+</Event><Event ErrorLevel="3" Project="TestProject1" Source="TestProject1\TestProject1.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Lucky2012WebService.sln" Description="方案轉換成功">
+</Event><Event ErrorLevel="3" Project="" Source="Lucky2012WebService.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Lucky2012WebService" Source="Lucky2012WebService\Lucky2012WebService.vbproj" Description="掃描完成: 專案檔不需要升級。">
+</Event><Event ErrorLevel="3" Project="" Source="LocalTestRun.testrunconfig" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="LocalTestRun.testrunconfig" Description="檔案已轉換成目前的格式。">
+</Event><Event ErrorLevel="3" Project="" Source="Lucky2012WebService.vsmdi" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Lucky2012WebService.vsmdi" Description="檔案已轉換成目前的格式。">
+</Event><Event ErrorLevel="0" Project="TestProject1" Source="TestProject1\TestProject1.vbproj" Description="掃描完成: 專案檔不需要升級。">
+</Event></UpgradeLog>

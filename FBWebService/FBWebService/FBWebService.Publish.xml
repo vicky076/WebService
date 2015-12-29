@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WebService\FBWebService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="設定檔1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="fbservice.asmx" publishTime="07/17/2014 11:00:22" />
+    <file relUrl="bin/Newtonsoft.Json.Net20.xml" publishTime="07/17/2014 11:00:22" />
+    <file relUrl="MyCardMemService.asmx" publishTime="07/17/2014 11:00:22" />
+    <file relUrl="Web.config" publishTime="07/17/2014 11:00:21" />
+    <file relUrl="bin/FBWebService.pdb" publishTime="10/31/2014 16:37:56" />
+    <file relUrl="bin/MyCardConn.dll" publishTime="07/17/2014 11:00:22" />
+    <file relUrl="bin/FBWebService.XmlSerializers.dll" publishTime="07/17/2014 13:30:17" />
+    <file relUrl="bin/Newtonsoft.Json.Net20.dll" publishTime="07/17/2014 11:00:22" />
+    <file relUrl="MyCardServiceForInGame.asmx" publishTime="07/17/2014 11:00:21" />
+    <file relUrl="bin/FBWebService.xml" publishTime="10/31/2014 16:37:56" />
+    <file relUrl="bin/Newtonsoft.Json.Net20.pdb" publishTime="07/17/2014 11:00:22" />
+    <file relUrl="bin/FBWebService.dll" publishTime="10/31/2014 16:37:56" />
+  </publishProfile>
+</publishData>

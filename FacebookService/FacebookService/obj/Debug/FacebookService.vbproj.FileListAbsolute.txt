@@ -1,0 +1,8 @@
+D:\Project\MyCardService\FacebookService\FacebookService\bin\FacebookService.dll
+D:\Project\MyCardService\FacebookService\FacebookService\obj\Debug\FacebookService.Resources.resources
+D:\Project\MyCardService\FacebookService\FacebookService\obj\Debug\FacebookService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\FacebookService\FacebookService\obj\Debug\FacebookService.dll
+D:\Project\MyCardService\FacebookService\FacebookService\obj\Debug\FacebookService.xml
+D:\Project\MyCardService\FacebookService\FacebookService\obj\Debug\FacebookService.pdb
+D:\Project\MyCardService\FacebookService\FacebookService\bin\FacebookService.pdb
+D:\Project\MyCardService\FacebookService\FacebookService\bin\FacebookService.xml

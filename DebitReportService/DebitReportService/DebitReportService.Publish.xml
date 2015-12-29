@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WebService\DebitReportService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="設定檔1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="Web.config" publishTime="09/04/2015 16:34:38" />
+    <file relUrl="bin/DebitReportService.pdb" publishTime="09/10/2015 17:37:42" />
+    <file relUrl="bin/DebitReportService.dll" publishTime="09/10/2015 17:37:42" />
+    <file relUrl="BLBACK.asmx" publishTime="08/11/2015 17:52:48" />
+    <file relUrl="bin/MyCardConn.dll" publishTime="07/11/2012 17:52:00" />
+    <file relUrl="bin/DebitReportService.xml" publishTime="09/10/2015 17:37:42" />
+  </publishProfile>
+</publishData>

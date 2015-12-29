@@ -1,0 +1,11 @@
+D:\Project\MyCardService\GMGService\GMGService\bin\GMGService.dll
+D:\Project\MyCardService\GMGService\GMGService\bin\GMGService.pdb
+D:\Project\MyCardService\GMGService\GMGService\bin\GMGService.xml
+D:\Project\MyCardService\GMGService\GMGService\bin\MyCardConn.dll
+D:\Project\MyCardService\GMGService\GMGService\bin\MyCardDbConns.dll
+D:\Project\MyCardService\GMGService\GMGService\obj\Debug\GMGService.vbprojResolveAssemblyReference.cache
+D:\Project\MyCardService\GMGService\GMGService\obj\Debug\GMGService.Resources.resources
+D:\Project\MyCardService\GMGService\GMGService\obj\Debug\GMGService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\GMGService\GMGService\obj\Debug\GMGService.dll
+D:\Project\MyCardService\GMGService\GMGService\obj\Debug\GMGService.xml
+D:\Project\MyCardService\GMGService\GMGService\obj\Debug\GMGService.pdb

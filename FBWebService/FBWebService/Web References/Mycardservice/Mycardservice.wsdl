@@ -1,0 +1,1223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="MyCardRender">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyCArdPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameFacId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Game_No" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameCard_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardRenderResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardRenderResult" type="tns:ReturnSaveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ReturnSaveResult">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyCardPoint" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyCardProjectNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyCardType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MyCardRenderV">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameFacId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Game_No" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameCard_ID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GAME_NAME" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GAME_SERVER" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardRenderVResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardRenderVResult" type="tns:ReturnSaveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InGameQueryMyCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Game_No" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameUser" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InGameQueryMyCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InGameQueryMyCardResult" type="tns:ReturnQueryMyCardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ReturnQueryMyCardResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyCardPoint" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyCardProjectNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyCardType" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInGameId">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="para" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EC_GAME_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInGameIdResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInGameIdResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InGameQueryMyCardForUL">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InGameQueryMyCardForULResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InGameQueryMyCardForULResult" type="tns:ReturnQueryMyCardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardQueryTradeService">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Game_No" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardQueryTradeServiceResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardQueryTradeServiceResult" type="tns:ReturnQueryMyCardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InGameQueryBookMyCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GamefacID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="InGameQueryBookMyCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="InGameQueryBookMyCardResult" type="tns:ReturnQueryMyCardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookMyCardUseage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyCArdPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameFacId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameUser" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Game_No" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameCard_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookMyCardUseageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BookMyCardUseageResult" type="tns:ReturnSaveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CommitMyCardUseage">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="Game_No" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameCard_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="CommitMyCardUseageResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="CommitMyCardUseageResult" type="tns:ReturnSaveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardDisCardForFactory">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyCArdPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameFacID" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="VerifyCode" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardDisCardForFactoryResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardDisCardForFactoryResult" type="tns:ResultClass" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="ResultClass">
+        <s:sequence>
+          <s:element minOccurs="1" maxOccurs="1" name="ReturnNo" type="s:int" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="MyCardPreCheck">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyCArdPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="GameFacId" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="MyCardPreCheckResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardPreCheckResult" type="tns:ReturnSaveResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookGameCard">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardCardId" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="MyCardPwd" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="TradeSeq" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="BookGameCardResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="BookGameCardResult" type="tns:BookCardResult" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:complexType name="BookCardResult">
+        <s:sequence>
+          <s:element minOccurs="0" maxOccurs="1" name="SaveSeq" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Card_id" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="Card_Psw" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="MyCardProjNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnNo" type="s:string" />
+          <s:element minOccurs="0" maxOccurs="1" name="ReturnMsg" type="s:string" />
+        </s:sequence>
+      </s:complexType>
+      <s:element name="GetInGameId1">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="para" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="EC_GAME_ID" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetInGameId1Response">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetInGameId1Result">
+              <s:complexType>
+                <s:sequence>
+                  <s:element ref="s:schema" />
+                  <s:any />
+                </s:sequence>
+              </s:complexType>
+            </s:element>
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="ReturnSaveResult" nillable="true" type="tns:ReturnSaveResult" />
+      <s:element name="ReturnQueryMyCardResult" nillable="true" type="tns:ReturnQueryMyCardResult" />
+      <s:element name="string" nillable="true" type="s:string" />
+      <s:element name="ResultClass" nillable="true" type="tns:ResultClass" />
+      <s:element name="BookCardResult" nillable="true" type="tns:BookCardResult" />
+      <s:element name="DataSet" nillable="true">
+        <s:complexType>
+          <s:sequence>
+            <s:element ref="s:schema" />
+            <s:any />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="MyCardRenderSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardRender" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardRenderResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderVSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardRenderV" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderVSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardRenderVResponse" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardSoapIn">
+    <wsdl:part name="parameters" element="tns:InGameQueryMyCard" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardSoapOut">
+    <wsdl:part name="parameters" element="tns:InGameQueryMyCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameIdSoapIn">
+    <wsdl:part name="parameters" element="tns:GetInGameId" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameIdSoapOut">
+    <wsdl:part name="parameters" element="tns:GetInGameIdResponse" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardForULSoapIn">
+    <wsdl:part name="parameters" element="tns:InGameQueryMyCardForUL" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardForULSoapOut">
+    <wsdl:part name="parameters" element="tns:InGameQueryMyCardForULResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardQueryTradeServiceSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardQueryTradeService" />
+  </wsdl:message>
+  <wsdl:message name="MyCardQueryTradeServiceSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardQueryTradeServiceResponse" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryBookMyCardSoapIn">
+    <wsdl:part name="parameters" element="tns:InGameQueryBookMyCard" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryBookMyCardSoapOut">
+    <wsdl:part name="parameters" element="tns:InGameQueryBookMyCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="BookMyCardUseageSoapIn">
+    <wsdl:part name="parameters" element="tns:BookMyCardUseage" />
+  </wsdl:message>
+  <wsdl:message name="BookMyCardUseageSoapOut">
+    <wsdl:part name="parameters" element="tns:BookMyCardUseageResponse" />
+  </wsdl:message>
+  <wsdl:message name="CommitMyCardUseageSoapIn">
+    <wsdl:part name="parameters" element="tns:CommitMyCardUseage" />
+  </wsdl:message>
+  <wsdl:message name="CommitMyCardUseageSoapOut">
+    <wsdl:part name="parameters" element="tns:CommitMyCardUseageResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardDisCardForFactorySoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardDisCardForFactory" />
+  </wsdl:message>
+  <wsdl:message name="MyCardDisCardForFactorySoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardDisCardForFactoryResponse" />
+  </wsdl:message>
+  <wsdl:message name="MyCardPreCheckSoapIn">
+    <wsdl:part name="parameters" element="tns:MyCardPreCheck" />
+  </wsdl:message>
+  <wsdl:message name="MyCardPreCheckSoapOut">
+    <wsdl:part name="parameters" element="tns:MyCardPreCheckResponse" />
+  </wsdl:message>
+  <wsdl:message name="BookGameCardSoapIn">
+    <wsdl:part name="parameters" element="tns:BookGameCard" />
+  </wsdl:message>
+  <wsdl:message name="BookGameCardSoapOut">
+    <wsdl:part name="parameters" element="tns:BookGameCardResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameId1SoapIn">
+    <wsdl:part name="parameters" element="tns:GetInGameId1" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameId1SoapOut">
+    <wsdl:part name="parameters" element="tns:GetInGameId1Response" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderVHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+    <wsdl:part name="GAME_NAME" type="s:string" />
+    <wsdl:part name="GAME_SERVER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderVHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameIdHttpGetIn">
+    <wsdl:part name="para" type="s:string" />
+    <wsdl:part name="EC_GAME_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameIdHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardForULHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardForULHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="MyCardQueryTradeServiceHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardQueryTradeServiceHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryBookMyCardHttpGetIn">
+    <wsdl:part name="GamefacID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryBookMyCardHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="BookMyCardUseageHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookMyCardUseageHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="CommitMyCardUseageHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CommitMyCardUseageHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="MyCardDisCardForFactoryHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacID" type="s:string" />
+    <wsdl:part name="VerifyCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardDisCardForFactoryHttpGetOut">
+    <wsdl:part name="Body" element="tns:ResultClass" />
+  </wsdl:message>
+  <wsdl:message name="MyCardPreCheckHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardPreCheckHttpGetOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="BookGameCardHttpGetIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCardPwd" type="s:string" />
+    <wsdl:part name="TradeSeq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookGameCardHttpGetOut">
+    <wsdl:part name="Body" element="tns:BookCardResult" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameId1HttpGetIn">
+    <wsdl:part name="para" type="s:string" />
+    <wsdl:part name="EC_GAME_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameId1HttpGetOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderVHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+    <wsdl:part name="GAME_NAME" type="s:string" />
+    <wsdl:part name="GAME_SERVER" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardRenderVHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameIdHttpPostIn">
+    <wsdl:part name="para" type="s:string" />
+    <wsdl:part name="EC_GAME_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameIdHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardForULHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryMyCardForULHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="MyCardQueryTradeServiceHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardQueryTradeServiceHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryBookMyCardHttpPostIn">
+    <wsdl:part name="GamefacID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="InGameQueryBookMyCardHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnQueryMyCardResult" />
+  </wsdl:message>
+  <wsdl:message name="BookMyCardUseageHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+    <wsdl:part name="GameUser" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookMyCardUseageHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="CommitMyCardUseageHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="Game_No" type="s:string" />
+    <wsdl:part name="GameCard_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="CommitMyCardUseageHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="MyCardDisCardForFactoryHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacID" type="s:string" />
+    <wsdl:part name="VerifyCode" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardDisCardForFactoryHttpPostOut">
+    <wsdl:part name="Body" element="tns:ResultClass" />
+  </wsdl:message>
+  <wsdl:message name="MyCardPreCheckHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCArdPwd" type="s:string" />
+    <wsdl:part name="GameFacId" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="MyCardPreCheckHttpPostOut">
+    <wsdl:part name="Body" element="tns:ReturnSaveResult" />
+  </wsdl:message>
+  <wsdl:message name="BookGameCardHttpPostIn">
+    <wsdl:part name="MyCardCardId" type="s:string" />
+    <wsdl:part name="MyCardPwd" type="s:string" />
+    <wsdl:part name="TradeSeq" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="BookGameCardHttpPostOut">
+    <wsdl:part name="Body" element="tns:BookCardResult" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameId1HttpPostIn">
+    <wsdl:part name="para" type="s:string" />
+    <wsdl:part name="EC_GAME_ID" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="GetInGameId1HttpPostOut">
+    <wsdl:part name="Body" element="tns:DataSet" />
+  </wsdl:message>
+  <wsdl:portType name="MyCardServiceSoap">
+    <wsdl:operation name="MyCardRender">
+      <wsdl:input message="tns:MyCardRenderSoapIn" />
+      <wsdl:output message="tns:MyCardRenderSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardRenderV">
+      <wsdl:input message="tns:MyCardRenderVSoapIn" />
+      <wsdl:output message="tns:MyCardRenderVSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCard">
+      <wsdl:input message="tns:InGameQueryMyCardSoapIn" />
+      <wsdl:output message="tns:InGameQueryMyCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId">
+      <wsdl:input message="tns:GetInGameIdSoapIn" />
+      <wsdl:output message="tns:GetInGameIdSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCardForUL">
+      <wsdl:input message="tns:InGameQueryMyCardForULSoapIn" />
+      <wsdl:output message="tns:InGameQueryMyCardForULSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardQueryTradeService">
+      <wsdl:input message="tns:MyCardQueryTradeServiceSoapIn" />
+      <wsdl:output message="tns:MyCardQueryTradeServiceSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryBookMyCard">
+      <wsdl:input message="tns:InGameQueryBookMyCardSoapIn" />
+      <wsdl:output message="tns:InGameQueryBookMyCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookMyCardUseage">
+      <wsdl:input message="tns:BookMyCardUseageSoapIn" />
+      <wsdl:output message="tns:BookMyCardUseageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CommitMyCardUseage">
+      <wsdl:input message="tns:CommitMyCardUseageSoapIn" />
+      <wsdl:output message="tns:CommitMyCardUseageSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardDisCardForFactory">
+      <wsdl:input message="tns:MyCardDisCardForFactorySoapIn" />
+      <wsdl:output message="tns:MyCardDisCardForFactorySoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardPreCheck">
+      <wsdl:input message="tns:MyCardPreCheckSoapIn" />
+      <wsdl:output message="tns:MyCardPreCheckSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookGameCard">
+      <wsdl:input message="tns:BookGameCardSoapIn" />
+      <wsdl:output message="tns:BookGameCardSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId1">
+      <wsdl:input message="tns:GetInGameId1SoapIn" />
+      <wsdl:output message="tns:GetInGameId1SoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MyCardServiceHttpGet">
+    <wsdl:operation name="MyCardRender">
+      <wsdl:input message="tns:MyCardRenderHttpGetIn" />
+      <wsdl:output message="tns:MyCardRenderHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardRenderV">
+      <wsdl:input message="tns:MyCardRenderVHttpGetIn" />
+      <wsdl:output message="tns:MyCardRenderVHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCard">
+      <wsdl:input message="tns:InGameQueryMyCardHttpGetIn" />
+      <wsdl:output message="tns:InGameQueryMyCardHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId">
+      <wsdl:input message="tns:GetInGameIdHttpGetIn" />
+      <wsdl:output message="tns:GetInGameIdHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCardForUL">
+      <wsdl:input message="tns:InGameQueryMyCardForULHttpGetIn" />
+      <wsdl:output message="tns:InGameQueryMyCardForULHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardQueryTradeService">
+      <wsdl:input message="tns:MyCardQueryTradeServiceHttpGetIn" />
+      <wsdl:output message="tns:MyCardQueryTradeServiceHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryBookMyCard">
+      <wsdl:input message="tns:InGameQueryBookMyCardHttpGetIn" />
+      <wsdl:output message="tns:InGameQueryBookMyCardHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookMyCardUseage">
+      <wsdl:input message="tns:BookMyCardUseageHttpGetIn" />
+      <wsdl:output message="tns:BookMyCardUseageHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CommitMyCardUseage">
+      <wsdl:input message="tns:CommitMyCardUseageHttpGetIn" />
+      <wsdl:output message="tns:CommitMyCardUseageHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardDisCardForFactory">
+      <wsdl:input message="tns:MyCardDisCardForFactoryHttpGetIn" />
+      <wsdl:output message="tns:MyCardDisCardForFactoryHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardPreCheck">
+      <wsdl:input message="tns:MyCardPreCheckHttpGetIn" />
+      <wsdl:output message="tns:MyCardPreCheckHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookGameCard">
+      <wsdl:input message="tns:BookGameCardHttpGetIn" />
+      <wsdl:output message="tns:BookGameCardHttpGetOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId1">
+      <wsdl:input message="tns:GetInGameId1HttpGetIn" />
+      <wsdl:output message="tns:GetInGameId1HttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="MyCardServiceHttpPost">
+    <wsdl:operation name="MyCardRender">
+      <wsdl:input message="tns:MyCardRenderHttpPostIn" />
+      <wsdl:output message="tns:MyCardRenderHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardRenderV">
+      <wsdl:input message="tns:MyCardRenderVHttpPostIn" />
+      <wsdl:output message="tns:MyCardRenderVHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCard">
+      <wsdl:input message="tns:InGameQueryMyCardHttpPostIn" />
+      <wsdl:output message="tns:InGameQueryMyCardHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId">
+      <wsdl:input message="tns:GetInGameIdHttpPostIn" />
+      <wsdl:output message="tns:GetInGameIdHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCardForUL">
+      <wsdl:input message="tns:InGameQueryMyCardForULHttpPostIn" />
+      <wsdl:output message="tns:InGameQueryMyCardForULHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardQueryTradeService">
+      <wsdl:input message="tns:MyCardQueryTradeServiceHttpPostIn" />
+      <wsdl:output message="tns:MyCardQueryTradeServiceHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryBookMyCard">
+      <wsdl:input message="tns:InGameQueryBookMyCardHttpPostIn" />
+      <wsdl:output message="tns:InGameQueryBookMyCardHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookMyCardUseage">
+      <wsdl:input message="tns:BookMyCardUseageHttpPostIn" />
+      <wsdl:output message="tns:BookMyCardUseageHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="CommitMyCardUseage">
+      <wsdl:input message="tns:CommitMyCardUseageHttpPostIn" />
+      <wsdl:output message="tns:CommitMyCardUseageHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardDisCardForFactory">
+      <wsdl:input message="tns:MyCardDisCardForFactoryHttpPostIn" />
+      <wsdl:output message="tns:MyCardDisCardForFactoryHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="MyCardPreCheck">
+      <wsdl:input message="tns:MyCardPreCheckHttpPostIn" />
+      <wsdl:output message="tns:MyCardPreCheckHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="BookGameCard">
+      <wsdl:input message="tns:BookGameCardHttpPostIn" />
+      <wsdl:output message="tns:BookGameCardHttpPostOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId1">
+      <wsdl:input message="tns:GetInGameId1HttpPostIn" />
+      <wsdl:output message="tns:GetInGameId1HttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="MyCardServiceSoap" type="tns:MyCardServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MyCardRender">
+      <soap:operation soapAction="http://tempuri.org/MyCardRender" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardRenderV">
+      <soap:operation soapAction="http://tempuri.org/MyCardRenderV" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCard">
+      <soap:operation soapAction="http://tempuri.org/InGameQueryMyCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId">
+      <soap:operation soapAction="http://tempuri.org/GetInGameId" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCardForUL">
+      <soap:operation soapAction="http://tempuri.org/InGameQueryMyCardForUL" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardQueryTradeService">
+      <soap:operation soapAction="http://tempuri.org/MyCardQueryTradeService" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryBookMyCard">
+      <soap:operation soapAction="http://tempuri.org/InGameQueryBookMyCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookMyCardUseage">
+      <soap:operation soapAction="http://tempuri.org/BookMyCardUseage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitMyCardUseage">
+      <soap:operation soapAction="http://tempuri.org/CommitMyCardUseage" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardDisCardForFactory">
+      <soap:operation soapAction="http://tempuri.org/MyCardDisCardForFactory" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardPreCheck">
+      <soap:operation soapAction="http://tempuri.org/MyCardPreCheck" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookGameCard">
+      <soap:operation soapAction="http://tempuri.org/BookGameCard" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId1">
+      <soap:operation soapAction="http://tempuri.org/GetInGameId1" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MyCardServiceSoap12" type="tns:MyCardServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="MyCardRender">
+      <soap12:operation soapAction="http://tempuri.org/MyCardRender" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardRenderV">
+      <soap12:operation soapAction="http://tempuri.org/MyCardRenderV" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCard">
+      <soap12:operation soapAction="http://tempuri.org/InGameQueryMyCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId">
+      <soap12:operation soapAction="http://tempuri.org/GetInGameId" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCardForUL">
+      <soap12:operation soapAction="http://tempuri.org/InGameQueryMyCardForUL" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardQueryTradeService">
+      <soap12:operation soapAction="http://tempuri.org/MyCardQueryTradeService" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryBookMyCard">
+      <soap12:operation soapAction="http://tempuri.org/InGameQueryBookMyCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookMyCardUseage">
+      <soap12:operation soapAction="http://tempuri.org/BookMyCardUseage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitMyCardUseage">
+      <soap12:operation soapAction="http://tempuri.org/CommitMyCardUseage" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardDisCardForFactory">
+      <soap12:operation soapAction="http://tempuri.org/MyCardDisCardForFactory" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardPreCheck">
+      <soap12:operation soapAction="http://tempuri.org/MyCardPreCheck" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookGameCard">
+      <soap12:operation soapAction="http://tempuri.org/BookGameCard" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId1">
+      <soap12:operation soapAction="http://tempuri.org/GetInGameId1" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MyCardServiceHttpGet" type="tns:MyCardServiceHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="MyCardRender">
+      <http:operation location="/MyCardRender" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardRenderV">
+      <http:operation location="/MyCardRenderV" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCard">
+      <http:operation location="/InGameQueryMyCard" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId">
+      <http:operation location="/GetInGameId" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCardForUL">
+      <http:operation location="/InGameQueryMyCardForUL" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardQueryTradeService">
+      <http:operation location="/MyCardQueryTradeService" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryBookMyCard">
+      <http:operation location="/InGameQueryBookMyCard" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookMyCardUseage">
+      <http:operation location="/BookMyCardUseage" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitMyCardUseage">
+      <http:operation location="/CommitMyCardUseage" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardDisCardForFactory">
+      <http:operation location="/MyCardDisCardForFactory" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardPreCheck">
+      <http:operation location="/MyCardPreCheck" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookGameCard">
+      <http:operation location="/BookGameCard" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId1">
+      <http:operation location="/GetInGameId1" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="MyCardServiceHttpPost" type="tns:MyCardServiceHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="MyCardRender">
+      <http:operation location="/MyCardRender" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardRenderV">
+      <http:operation location="/MyCardRenderV" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCard">
+      <http:operation location="/InGameQueryMyCard" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId">
+      <http:operation location="/GetInGameId" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryMyCardForUL">
+      <http:operation location="/InGameQueryMyCardForUL" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardQueryTradeService">
+      <http:operation location="/MyCardQueryTradeService" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="InGameQueryBookMyCard">
+      <http:operation location="/InGameQueryBookMyCard" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookMyCardUseage">
+      <http:operation location="/BookMyCardUseage" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="CommitMyCardUseage">
+      <http:operation location="/CommitMyCardUseage" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardDisCardForFactory">
+      <http:operation location="/MyCardDisCardForFactory" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="MyCardPreCheck">
+      <http:operation location="/MyCardPreCheck" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="BookGameCard">
+      <http:operation location="/BookGameCard" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetInGameId1">
+      <http:operation location="/GetInGameId1" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="MyCardService">
+    <wsdl:port name="MyCardServiceSoap" binding="tns:MyCardServiceSoap">
+      <soap:address location="http://test.b2b.mycard520.com.tw/Mycardservice/Mycardservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MyCardServiceSoap12" binding="tns:MyCardServiceSoap12">
+      <soap12:address location="http://test.b2b.mycard520.com.tw/Mycardservice/Mycardservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MyCardServiceHttpGet" binding="tns:MyCardServiceHttpGet">
+      <http:address location="http://test.b2b.mycard520.com.tw/Mycardservice/Mycardservice.asmx" />
+    </wsdl:port>
+    <wsdl:port name="MyCardServiceHttpPost" binding="tns:MyCardServiceHttpPost">
+      <http:address location="http://test.b2b.mycard520.com.tw/Mycardservice/Mycardservice.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

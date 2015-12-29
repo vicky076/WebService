@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<publishData>
+  <publishProfile publishUrl="D:\WebService\FreeMyCardService" deleteExistingFiles="True" ftpAnonymousLogin="False" ftpPassiveMode="True" msdeploySite="" msdeploySiteID="" msdeployRemoteSitePhysicalPath="" msdeployAllowUntrustedCertificate="False" msdeploySkipExtraFilesOnServer="True" msdeployMarkAsApp="False" profileName="設定檔1" publishMethod="FileSystem" replaceMatchingFiles="False" userName="" savePWD="False" userPWD="" SelectedForPublish="True">
+    <file relUrl="bin/FreeMyCardService.dll" publishTime="08/21/2014 17:25:49" />
+    <file relUrl="bin/FreeMyCardService.pdb" publishTime="08/21/2014 17:25:49" />
+    <file relUrl="FreeMyCardService.asmx" publishTime="08/21/2014 16:20:49" />
+    <file relUrl="bin/FreeMyCardService.xml" publishTime="08/21/2014 17:25:49" />
+    <file relUrl="Web.config" publishTime="08/21/2014 17:17:20" />
+  </publishProfile>
+</publishData>

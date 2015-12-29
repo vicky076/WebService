@@ -1,0 +1,76 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+GMGService
+</name>
+</assembly>
+<members>
+<member name="P:GMGService.My.MyWebExtension.Application">
+	<summary>
+ 傳回有關目前應用程式的資訊。
+ </summary>
+</member><member name="P:GMGService.My.MyWebExtension.Computer">
+	<summary>
+ 傳回主機電腦的相關資訊。
+ </summary>
+</member><member name="P:GMGService.My.MyWebExtension.User">
+	<summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member><member name="P:GMGService.My.MyWebExtension.Request">
+	<summary>
+ 傳回 Request 物件。
+ </summary>
+</member><member name="P:GMGService.My.MyWebExtension.Response">
+	<summary>
+ 傳回 Response 物件。
+ </summary>
+</member><member name="P:GMGService.My.MyWebExtension.Log">
+	<summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member><member name="P:GMGService.My.MyWebExtension.WebServices">
+	<summary>
+ 提供對加入此專案之 WebServices 的存取。
+ </summary>
+</member><member name="T:GMGService.My.MyWebExtension">
+	<summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+	<remarks></remarks>
+</member><member name="M:GMGService.GMGService.View_MyCardCPSave_ScheduleCheck(System.String)">
+	<summary>
+ CPSaveSvice核對CP儲值差異- 查詢排程資料
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:GMGService.GMGService.MyCardCPSave_CPTempData_Insert(System.Int32,System.String,System.String,System.String,System.String,System.Int32,System.DateTime)">
+	<summary>
+ CPSaveSvice核對CP儲值差異- 寫入TempTable
+ </summary>
+	<returns>ReturnValue</returns>
+	<remarks>
+ 回傳ReturnValue 
+ </remarks>
+</member><member name="M:GMGService.GMGService.MyCardCPSave_Difference_Proc(System.String,System.String,System.DateTime,System.DateTime,System.String)">
+	<summary>
+ CPSaveSvice核對CP儲值差異- 比對儲值差異
+ </summary>
+	<returns>DataSet</returns>
+	<remarks>
+ 回傳DataSet 
+ </remarks>
+</member><member name="M:GMGService.GMGService.MyCardCPSave_ScheduleCheck_UpdateStatus(System.Int32,System.Int32,System.String)">
+	<summary>
+ CPSaveSvice核對CP儲值差異- 修改排程狀態
+ </summary>
+	<returns>ReturnValue</returns>
+	<remarks>
+ 回傳ReturnValue 
+ </remarks>
+</member>
+</members>
+</doc>

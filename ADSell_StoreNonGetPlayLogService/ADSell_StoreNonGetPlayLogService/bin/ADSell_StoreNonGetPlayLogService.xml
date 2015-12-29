@@ -1,0 +1,44 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+ADSell_StoreNonGetPlayLogService
+</name>
+</assembly>
+<members>
+<member name="M:ADSell_StoreNonGetPlayLogService.WebService1.MyCard_ADSell_StoreNonGetPlayLog(System.DateTime,System.DateTime)">
+	<summary>
+ 檢查未撈取影音店家
+ </summary>
+	<returns>ReturnValue</returns>
+	<remarks>
+ 回傳ReturnValue 
+ </remarks>
+</member><member name="P:ADSell_StoreNonGetPlayLogService.My.MyWebExtension.Computer">
+	<summary>
+ 傳回主機電腦的相關資訊。
+ </summary>
+</member><member name="P:ADSell_StoreNonGetPlayLogService.My.MyWebExtension.User">
+	<summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member><member name="P:ADSell_StoreNonGetPlayLogService.My.MyWebExtension.Request">
+	<summary>
+ 傳回 Request 物件。
+ </summary>
+</member><member name="P:ADSell_StoreNonGetPlayLogService.My.MyWebExtension.Response">
+	<summary>
+傳回 Response 物件。
+ </summary>
+</member><member name="P:ADSell_StoreNonGetPlayLogService.My.MyWebExtension.Log">
+	<summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member><member name="T:ADSell_StoreNonGetPlayLogService.My.MyWebExtension">
+	<summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

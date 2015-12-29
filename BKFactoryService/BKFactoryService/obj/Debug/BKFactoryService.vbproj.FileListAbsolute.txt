@@ -1,0 +1,10 @@
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\obj\Debug\BKFactoryService.vbprojResolveAssemblyReference.cache
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\obj\Debug\BKFactoryService.Resources.resources
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\obj\Debug\BKFactoryService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\bin\BKFactoryService.dll
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\bin\BKFactoryService.pdb
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\bin\BKFactoryService.xml
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\bin\MyCardConn.dll
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\obj\Debug\BKFactoryService.dll
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\obj\Debug\BKFactoryService.xml
+D:\Project\MyCardService\BKFactoryService\BKFactoryService\obj\Debug\BKFactoryService.pdb

@@ -1,0 +1,70 @@
+﻿<?xml version="1.0"?>
+<doc>
+<assembly>
+<name>
+FreeMyCardService
+</name>
+</assembly>
+<members>
+<member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.#ctor">
+	<remarks/>
+</member><member name="E:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.SearchPointCompleted">
+	<remarks/>
+</member><member name="E:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.ExecuteCancelPointCompleted">
+	<remarks/>
+</member><member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.SearchPoint(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.SearchPointAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.SearchPointAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.ExecuteCancelPoint(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.ExecuteCancelPointAsync(System.String,System.String,System.String)">
+	<remarks/>
+</member><member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.ExecuteCancelPointAsync(System.String,System.String,System.String,System.Object)">
+	<remarks/>
+</member><member name="M:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus.CancelAsync(System.Object)">
+	<remarks/>
+</member><member name="T:FreeMyCardService.FreeMyCardAwardStatus.FreeMyCardAwardStatus">
+	<remarks/>
+</member><member name="T:FreeMyCardService.FreeMyCardAwardStatus.SearchPointCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FreeMyCardService.FreeMyCardAwardStatus.SearchPointCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FreeMyCardService.FreeMyCardAwardStatus.SearchPointCompletedEventArgs">
+	<remarks/>
+</member><member name="T:FreeMyCardService.FreeMyCardAwardStatus.ExecuteCancelPointCompletedEventHandler">
+	<remarks/>
+</member><member name="P:FreeMyCardService.FreeMyCardAwardStatus.ExecuteCancelPointCompletedEventArgs.Result">
+	<remarks/>
+</member><member name="T:FreeMyCardService.FreeMyCardAwardStatus.ExecuteCancelPointCompletedEventArgs">
+	<remarks/>
+</member><member name="P:FreeMyCardService.My.MyWebExtension.Computer">
+	<summary>
+ 傳回主機電腦的相關資訊。
+ </summary>
+</member><member name="P:FreeMyCardService.My.MyWebExtension.User">
+	<summary>
+ 傳回目前 Web 使用者的資訊。
+ </summary>
+</member><member name="P:FreeMyCardService.My.MyWebExtension.Request">
+	<summary>
+ 傳回 Request 物件。
+ </summary>
+</member><member name="P:FreeMyCardService.My.MyWebExtension.Response">
+	<summary>
+傳回 Response 物件。
+ </summary>
+</member><member name="P:FreeMyCardService.My.MyWebExtension.Log">
+	<summary>
+ 傳回 Asp 記錄物件。
+ </summary>
+</member><member name="T:FreeMyCardService.My.MyWebExtension">
+	<summary>
+ 用來定義可用於 Web 專案 My 命名空間中之屬性的模組。
+ </summary>
+	<remarks></remarks>
+</member>
+</members>
+</doc>

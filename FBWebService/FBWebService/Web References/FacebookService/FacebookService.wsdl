@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" xmlns:tns="http://tempuri.org/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="PostnGetResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostUrl" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PostString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostnGetResponseResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostnGetResponseResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostnGetResponseJSON">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostUrl" type="s:string" />
+            <s:element minOccurs="0" maxOccurs="1" name="PostString" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="PostnGetResponseJSONResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="PostnGetResponseJSONResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResponseHTML">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="ResponseWord" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="GetResponseHTMLResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="GetResponseHTMLResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="PostnGetResponseSoapIn">
+    <wsdl:part name="parameters" element="tns:PostnGetResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostnGetResponseSoapOut">
+    <wsdl:part name="parameters" element="tns:PostnGetResponseResponse" />
+  </wsdl:message>
+  <wsdl:message name="PostnGetResponseJSONSoapIn">
+    <wsdl:part name="parameters" element="tns:PostnGetResponseJSON" />
+  </wsdl:message>
+  <wsdl:message name="PostnGetResponseJSONSoapOut">
+    <wsdl:part name="parameters" element="tns:PostnGetResponseJSONResponse" />
+  </wsdl:message>
+  <wsdl:message name="GetResponseHTMLSoapIn">
+    <wsdl:part name="parameters" element="tns:GetResponseHTML" />
+  </wsdl:message>
+  <wsdl:message name="GetResponseHTMLSoapOut">
+    <wsdl:part name="parameters" element="tns:GetResponseHTMLResponse" />
+  </wsdl:message>
+  <wsdl:portType name="FacebookServiceSoap">
+    <wsdl:operation name="PostnGetResponse">
+      <wsdl:input message="tns:PostnGetResponseSoapIn" />
+      <wsdl:output message="tns:PostnGetResponseSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="PostnGetResponseJSON">
+      <wsdl:input message="tns:PostnGetResponseJSONSoapIn" />
+      <wsdl:output message="tns:PostnGetResponseJSONSoapOut" />
+    </wsdl:operation>
+    <wsdl:operation name="GetResponseHTML">
+      <wsdl:input message="tns:GetResponseHTMLSoapIn" />
+      <wsdl:output message="tns:GetResponseHTMLSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="FacebookServiceSoap" type="tns:FacebookServiceSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PostnGetResponse">
+      <soap:operation soapAction="http://tempuri.org/PostnGetResponse" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostnGetResponseJSON">
+      <soap:operation soapAction="http://tempuri.org/PostnGetResponseJSON" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResponseHTML">
+      <soap:operation soapAction="http://tempuri.org/GetResponseHTML" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="FacebookServiceSoap12" type="tns:FacebookServiceSoap">
+    <soap12:binding transport="http://schemas.xmlsoap.org/soap/http" />
+    <wsdl:operation name="PostnGetResponse">
+      <soap12:operation soapAction="http://tempuri.org/PostnGetResponse" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="PostnGetResponseJSON">
+      <soap12:operation soapAction="http://tempuri.org/PostnGetResponseJSON" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+    <wsdl:operation name="GetResponseHTML">
+      <soap12:operation soapAction="http://tempuri.org/GetResponseHTML" style="document" />
+      <wsdl:input>
+        <soap12:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap12:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="FacebookService">
+    <wsdl:port name="FacebookServiceSoap" binding="tns:FacebookServiceSoap">
+      <soap:address location="http://localhost:41915/FacebookService.asmx" />
+    </wsdl:port>
+    <wsdl:port name="FacebookServiceSoap12" binding="tns:FacebookServiceSoap12">
+      <soap12:address location="http://localhost:41915/FacebookService.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

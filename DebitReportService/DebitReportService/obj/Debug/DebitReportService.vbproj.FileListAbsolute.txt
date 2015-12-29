@@ -1,0 +1,10 @@
+D:\Project\MyCardService\DebitReportService\DebitReportService\bin\DebitReportService.dll
+D:\Project\MyCardService\DebitReportService\DebitReportService\bin\DebitReportService.pdb
+D:\Project\MyCardService\DebitReportService\DebitReportService\bin\DebitReportService.xml
+D:\Project\MyCardService\DebitReportService\DebitReportService\bin\MyCardConn.dll
+D:\Project\MyCardService\DebitReportService\DebitReportService\obj\Debug\DebitReportService.Resources.resources
+D:\Project\MyCardService\DebitReportService\DebitReportService\obj\Debug\DebitReportService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\DebitReportService\DebitReportService\obj\Debug\DebitReportService.dll
+D:\Project\MyCardService\DebitReportService\DebitReportService\obj\Debug\DebitReportService.xml
+D:\Project\MyCardService\DebitReportService\DebitReportService\obj\Debug\DebitReportService.pdb
+D:\Project\MyCardService\DebitReportService\DebitReportService\obj\Debug\DebitReportService.vbprojResolveAssemblyReference.cache

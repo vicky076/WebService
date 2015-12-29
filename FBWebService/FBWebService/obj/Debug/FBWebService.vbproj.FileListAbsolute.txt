@@ -1,0 +1,11 @@
+D:\Project\MyCardService\FBWebService\FBWebService\bin\FBWebService.dll
+D:\Project\MyCardService\FBWebService\FBWebService\bin\Newtonsoft.Json.Net20.pdb
+D:\Project\MyCardService\FBWebService\FBWebService\bin\Newtonsoft.Json.Net20.xml
+D:\Project\MyCardService\FBWebService\FBWebService\obj\Debug\FBWebService.vbprojResolveAssemblyReference.cache
+D:\Project\MyCardService\FBWebService\FBWebService\obj\Debug\FBWebService.Resources.resources
+D:\Project\MyCardService\FBWebService\FBWebService\obj\Debug\FBWebService.vbproj.GenerateResource.Cache
+D:\Project\MyCardService\FBWebService\FBWebService\obj\Debug\FBWebService.dll
+D:\Project\MyCardService\FBWebService\FBWebService\obj\Debug\FBWebService.xml
+D:\Project\MyCardService\FBWebService\FBWebService\obj\Debug\FBWebService.pdb
+D:\Project\MyCardService\FBWebService\FBWebService\bin\FBWebService.pdb
+D:\Project\MyCardService\FBWebService\FBWebService\bin\FBWebService.xml

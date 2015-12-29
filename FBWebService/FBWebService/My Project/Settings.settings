@@ -1,0 +1,57 @@
+﻿<?xml version='1.0' encoding='utf-8'?>
+<SettingsFile xmlns="http://schemas.microsoft.com/VisualStudio/2004/01/settings" CurrentProfile="(Default)" GeneratedClassNamespace="My" GeneratedClassName="MySettings" UseMySettingsClassName="true">
+  <Profiles />
+  <Settings>
+    <Setting Name="FBWebService_Mycardservice_MyCardService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://test.b2b.mycard520.com.tw/Mycardservice/Mycardservice.asmx</Value>
+    </Setting>
+    <Setting Name="IsTest" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">TRUE</Value>
+    </Setting>
+    <Setting Name="restServerUrl" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">http://api.facebook.com/restserver.php</Value>
+    </Setting>
+    <Setting Name="app_id" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">107766385960219</Value>
+    </Setting>
+    <Setting Name="APIKey" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2aadaadeac72a7e4a99108b2de19165a</Value>
+    </Setting>
+    <Setting Name="Secret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">f1c2005898fbb4cf9d569002ba403232</Value>
+    </Setting>
+    <Setting Name="app_id_HK" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">110644079013712</Value>
+    </Setting>
+    <Setting Name="APIKey_HK" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">f3c22f72fb0bf9cb782472d597151910</Value>
+    </Setting>
+    <Setting Name="Secret_HK" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">c57a5174504c9340403cc77ea2fb1b99</Value>
+    </Setting>
+    <Setting Name="TDS_Domain" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">https://stage.api.gmgpulse.com</Value>
+    </Setting>
+    <Setting Name="TDS_APIKEY" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">9275194ACC3F4265BAC190CF88FAE0D7</Value>
+    </Setting>
+    <Setting Name="TDS_Secret" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">FRWVLa8RMQvEli13Lc2Fdxn29qpeklW34HEYxVMjwRYesO78FV9EiTjzjWGkL37</Value>
+    </Setting>
+    <Setting Name="FBWebService_dbwebservice_DbWebService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://weba.mycard.net/MyCardDBSERVICEs/dbwebservice.asmx</Value>
+    </Setting>
+    <Setting Name="TDS_function" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">/product/facebook/apac</Value>
+    </Setting>
+    <Setting Name="FBWebService_FacebookService_FacebookService" Type="(Web Service URL)" Scope="Application">
+      <Value Profile="(Default)">http://localhost:41915/FacebookService.asmx</Value>
+    </Setting>
+    <Setting Name="ProjNoSet" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">C5160|50|FAC711SHIPBONUS5000TWD-DIGGMGBUS-001,C5159|15|FAC711SHIPBONUS1500TWD-DIGGMGBUS-001</Value>
+    </Setting>
+    <Setting Name="ProjNoSetDueDate" Type="System.String" Scope="Application">
+      <Value Profile="(Default)">2014/10/15 00:00:00</Value>
+    </Setting>
+  </Settings>
+</SettingsFile>
